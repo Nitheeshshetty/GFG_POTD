@@ -1,7 +1,6 @@
 //{ Driver Code Starts
 //Initial Template for Java
 
-/*package whatever //do not write package name here */
 
 import java.io.*;
 import java.util.*;
@@ -28,17 +27,10 @@ class Array {
 	}
 }
 
-
-            
-
-
-
-
 // } Driver Code Ends
 
 
 //User function Template for Java
-
 class Complete{
     // Function for finding maximum and value pair
     public static String maximumFrequency (String S) {
@@ -63,7 +55,5 @@ class Complete{
         }
         String an=String.valueOf(cnt);
         return ans+" "+an;
-    }
-    
-    
+    }  
 }
