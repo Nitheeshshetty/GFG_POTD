@@ -3,9 +3,7 @@ import java.lang.*;
 import java.io.*;
 
 class GFG {
-    
 	public static void main (String[] args)throws IOException {
-	
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int t = Integer.parseInt(br.readLine());
 		while(t-->0)
@@ -13,7 +11,6 @@ class GFG {
 		    String str = br.readLine();
 		    String s1 = str.split(" ")[0];
 		    String s2 = str.split(" ")[1];
-		    
 		    Solution obj = new Solution();
 		    int ans = obj.specialPalindrome(s1,s2);
 		    System.out.println(ans);  
