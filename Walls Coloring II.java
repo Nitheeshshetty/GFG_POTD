@@ -1,6 +1,3 @@
-//{ Driver Code Starts
-//Initial Template for Java
-
 import java.util.*;
 import java.io.*;
 import java.lang.*;
@@ -25,8 +22,6 @@ class GFG{
 		}
 	}
 }
-
-// } Driver Code Ends
 
 
 //User function Template for Java
