@@ -1,6 +1,3 @@
-//{ Driver Code Starts
-// Initial Template for Java
-
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -21,11 +18,8 @@ class GFG {
         out.close();
     }
 }
-// } Driver Code Ends
-
 
 // User function Template for Java
-
 class Solution {
     public int maxInstance(String s) {
         int[] freq = new int[26];
