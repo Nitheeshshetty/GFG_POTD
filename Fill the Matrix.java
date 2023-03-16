@@ -1,9 +1,7 @@
-//Initial Template for Java
 import java.io.*;
 import java.util.*;
 
 //User function Template for Java
-
 class Solution {
 	public static int minIteration(int N, int M, int x, int y) 
 	{
@@ -14,7 +12,6 @@ class Solution {
 }
 
 //{ Driver Code Starts.
-
 class GFG
 {
     public static void main(String args[])throws IOException
