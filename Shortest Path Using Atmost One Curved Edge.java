@@ -1,4 +1,3 @@
-//{ Driver Code Starts
 import java.io.*;
 import java.util.*;
 
@@ -40,7 +39,6 @@ class GFG {
         }
     }
 }
-// } Driver Code Ends
 
 
 //User function Template for Java
