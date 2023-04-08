@@ -48,7 +48,6 @@ class GFG
         	String str = read.readLine();
             Solution ob = new Solution();
             System.out.println(ob.addMinChar(str));
-        }
-        
+        } 
     }
 }
