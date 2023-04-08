@@ -23,9 +23,7 @@ class Solution
             else 
             {
                 if (j != 0) 
-                { 
                     j = lps[j - 1]; 
-                }
                 else 
                 {
                     lps[i++] = 0; 
