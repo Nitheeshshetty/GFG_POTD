@@ -3,8 +3,8 @@ import java.util.*;
 
 class Solution
 {
-	public static int addMinChar(String str)
-	{
+    public static int addMinChar(String str)
+    {
         String concatStr = str + "#" + new StringBuilder(str).reverse().toString();
         int[] lps = computeLPS(concatStr);
         return str.length() - lps[lps.length - 1];
