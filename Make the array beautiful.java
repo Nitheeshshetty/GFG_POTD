@@ -1,8 +1,10 @@
 import java.io.*;
 import java.util.*;
 
-class IntArray {
-    public static int[] input(BufferedReader br, int n) throws IOException {
+class IntArray 
+{
+    public static int[] input(BufferedReader br, int n) throws IOException 
+    {
         String[] s = br.readLine().trim().split(" ");
         int[] a = new int[n];
         for (int i = 0; i < n; i++) a[i] = Integer.parseInt(s[i]);
