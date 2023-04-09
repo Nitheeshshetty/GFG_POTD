@@ -63,11 +63,8 @@ class Solution
             }
             else 
             {
-                
                 if((stack.peek() >= 0 && num < 0) || (stack.peek() < 0 && num >= 0)) 
-                {
                     stack.pop();
-                } 
                 else 
                 {
                     stack.push(num);
