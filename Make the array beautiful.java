@@ -27,20 +27,19 @@ class IntArray
     }
 }
 
-class GFG {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br =
-            new BufferedReader(new InputStreamReader(System.in));
+class GFG 
+{
+    public static void main(String[] args) throws IOException 
+    {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         PrintWriter out = new PrintWriter(System.out);
         int t;
         t = Integer.parseInt(br.readLine());
-        while (t-- > 0) {
-
+        while (t-- > 0) 
+        {
             int n;
             n = Integer.parseInt(br.readLine());
-
             int[] arr = IntArray.input(br, n);
-
             Solution obj = new Solution();
             ArrayList<Integer> res = obj.makeBeautiful(arr);
             for (int e : res) out.print(e + " ");
