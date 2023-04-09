@@ -12,14 +12,16 @@ class IntArray
         return a;
     }
 
-    public static void print(int[] a) {
+    public static void print(int[] a) 
+    {
         for (int e : a) System.out.print(e + " ");
         System.out.println();
     }
 
-    public static void print(ArrayList<Integer> a) {
-
-        for (int e : a) System.out.print(e + " ");
+    public static void print(ArrayList<Integer> a) 
+    {
+        for (int e : a) 
+            System.out.print(e + " ");
         System.out.println();
     }
 }
