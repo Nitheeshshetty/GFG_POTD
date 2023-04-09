@@ -58,17 +58,13 @@ class Solution
         for(int num : arr) 
         {
             if(stack.empty()) 
-            {
                 stack.push(num);
-            }
             else 
             {
                 if((stack.peek() >= 0 && num < 0) || (stack.peek() < 0 && num >= 0)) 
                     stack.pop();
                 else 
-                {
                     stack.push(num);
-                }
             }
         }
         ArrayList<Integer> result = new ArrayList<>();
