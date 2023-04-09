@@ -7,14 +7,15 @@ class IntArray
     {
         String[] s = br.readLine().trim().split(" ");
         int[] a = new int[n];
-        for (int i = 0; i < n; i++) a[i] = Integer.parseInt(s[i]);
-
+        for (int i = 0; i < n; i++) 
+            a[i] = Integer.parseInt(s[i]);
         return a;
     }
 
     public static void print(int[] a) 
     {
-        for (int e : a) System.out.print(e + " ");
+        for (int e : a) 
+            System.out.print(e + " ");
         System.out.println();
     }
 
