@@ -3,36 +3,26 @@ import java.util.*;
 
 class GFG 
 {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException 
+    {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int t;
         t = Integer.parseInt(br.readLine());
-        while(t-- > 0){
-            
+        while(t-- > 0)
+        {    
             int N;
-            N = Integer.parseInt(br.readLine());
-            
-            
+            N = Integer.parseInt(br.readLine());   
             int A;
             A = Integer.parseInt(br.readLine());
-            
-            
             int B;
             B = Integer.parseInt(br.readLine());
-            
-            
             int C;
             C = Integer.parseInt(br.readLine());
-            
-            
             int D;
             D = Integer.parseInt(br.readLine());
-            
             Solution obj = new Solution();
             int res = obj.bestNumbers(N, A, B, C, D);
-            
-            System.out.println(res);
-            
+            System.out.println(res);     
         }
     }
 }
