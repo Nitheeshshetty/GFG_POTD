@@ -28,7 +28,6 @@ class GFG
 }
 
 
-
 class Solution 
 {
     static int N = (int)1e5+5;
