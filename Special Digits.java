@@ -1,8 +1,8 @@
-//{ Driver Code Starts
 import java.io.*;
 import java.util.*;
 
-class GFG {
+class GFG 
+{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int t;
