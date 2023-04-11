@@ -6,20 +6,18 @@ class GFG
 {
     public static void main(String[] args) throws IOException 
     {
-        BufferedReader br =
-            new BufferedReader(new InputStreamReader(System.in));
-        int t =
-            Integer.parseInt(br.readLine().trim()); // Inputting the testcases
-        while (t-- > 0) {
-
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int t = Integer.parseInt(br.readLine().trim()); // Inputting the testcases
+        while (t-- > 0) 
+        {
             int i = 0;
             int N = Integer.parseInt(br.readLine().trim());
-
             int lines[][] = new int[(int)(N)][2];
-
-            for (int j = 0; j < 2; j++) {
+            for (int j = 0; j < 2; j++) 
+            {
                 String inputLine2[] = br.readLine().trim().split(" ");
-                for (i = 0; i < N; i++) {
+                for (i = 0; i < N; i++) 
+                {
                     lines[i][j] = Integer.parseInt(inputLine2[i]);
                 }
             }
