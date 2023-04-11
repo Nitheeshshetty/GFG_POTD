@@ -7,7 +7,7 @@ class GFG
     public static void main(String[] args) throws IOException 
     {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int t = Integer.parseInt(br.readLine().trim()); // Inputting the testcases
+        int t = Integer.parseInt(br.readLine().trim()); 
         while (t-- > 0) 
         {
             int i = 0;
@@ -43,7 +43,8 @@ class Solution
             lineMap.put(end, lineMap.get(end) - 1);
         }
         int res = 0, cnt = 0;
-        for(Map.Entry<Integer, Integer> entry : lineMap.entrySet()){
+        for(Map.Entry<Integer, Integer> entry : lineMap.entrySet())
+        {
             cnt = cnt + entry.getValue();
             res = Math.max(res, cnt);
         }
