@@ -56,13 +56,12 @@ class GFG
         out.flush();
     }
 }
-// } Driver Code Ends
 
 
-//User function Template for Java
-
-class Solution {
-    int solve(int a, int b, int c) {
+class Solution 
+{
+    int solve(int a, int b, int c) 
+    {
         if(a>2*(b+c)+2 || b>2*(a+c)+2 || c>2*(a+b)+2)
             return -1;
         return a+b+c;
