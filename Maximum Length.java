@@ -26,13 +26,15 @@ class FastReader
         return st.nextToken(); 
     } 
 
-    String nextLine(){ 
+    String nextLine()
+    { 
         String str = ""; 
         try{ str = br.readLine(); } catch (IOException e) { e.printStackTrace(); } 
         return str; 
     }
     
-    Integer nextInt(){
+    Integer nextInt()
+    {
         return Integer.parseInt(next());
     }
 } 
