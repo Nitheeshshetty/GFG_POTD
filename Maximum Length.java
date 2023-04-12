@@ -39,17 +39,18 @@ class FastReader
     }
 } 
     
-class GFG {
-    public static void main(String args[]) throws IOException {
+class GFG 
+{
+    public static void main(String args[]) throws IOException 
+    {
         FastReader sc = new FastReader();
         PrintWriter out = new PrintWriter(System.out);
         int t = sc.nextInt();
-        while (t-- > 0) {
+        while (t-- > 0) 
+        {
             int a = sc.nextInt(), b = sc.nextInt(), c = sc.nextInt();
-    
             Solution ob = new Solution();
             int ans = ob.solve(a, b, c);
-            
             out.println(ans);
         }
         out.flush();
