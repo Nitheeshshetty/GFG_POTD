@@ -39,12 +39,9 @@ class GFG
             int n;
             n = Integer.parseInt(br.readLine());
             int[] arr = IntArray.input(br, n);
-            
             Solution obj = new Solution();
             int res = obj.dominantPairs(n, arr);
-            
             System.out.println(res);
-            
         }
     }
 }
