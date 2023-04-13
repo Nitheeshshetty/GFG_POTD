@@ -47,7 +47,8 @@ class GFG
 }
 
 
-class Solution {
+class Solution 
+{
     public static int dominantPairs(int n, int[] arr) 
     {
         int j=n/2;
