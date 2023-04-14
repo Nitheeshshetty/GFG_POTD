@@ -1,9 +1,9 @@
-//{ Driver Code Starts
-//Initial Template for Java
 import java.io.*;
 import java.util.*; 
-class GFG{
-    public static void main(String args[]) throws IOException { 
+class GFG
+{
+    public static void main(String args[]) throws IOException 
+    { 
         BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(read.readLine());
         
