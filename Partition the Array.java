@@ -66,9 +66,9 @@ class Solution
         return tmp;
     }
     
-	void reverse(int a[])
-	{
-		int n = a.length;
+    void reverse(int a[])
+    {
+	int n = a.length;
         int i, k, t;
         for (i = 0; i < n / 2; i++) 
         {
@@ -78,11 +78,11 @@ class Solution
         }
     }
     
-	long minDifference(int N, int A[]) 
-	{ 
-		long ans = (long)2e18;
-		ArrayList<long []> x = help(A);
-		reverse(A);
+    long minDifference(int N, int A[]) 
+    { 
+	long ans = (long)2e18;
+	ArrayList<long []> x = help(A);
+	reverse(A);
         ArrayList<long []> y = help(A);
         Collections.reverse(y);
         for(int i=1;i+2<N;i++) 
