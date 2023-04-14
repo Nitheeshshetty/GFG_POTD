@@ -6,14 +6,13 @@ class GFG
     { 
         BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(read.readLine());
-        
-        while(t-- > 0){
+        while(t-- > 0)
+	{
             int N = Integer.parseInt(read.readLine());
             String input_line[] = read.readLine().trim().split("\\s+");
             int A[]= new int[N];
             for(int i = 0; i < N; i++)
                 A[i] = Integer.parseInt(input_line[i]);
-
             Solution ob = new Solution();
             long ans = ob.minDifference(N, A); 
             System.out.println(ans);
