@@ -19,43 +19,41 @@ class GFG
         }
     } 
 } 
-// } Driver Code Ends
 
 
-//User function Template for Java
 class Solution 
 {
 	ArrayList<long []> help(int [] a)
 	{
-        int n=a.length;
-        long [] p = new long[n+1];
-        for(int i=0;i<n;i++)
-        {
-            p[i]=a[i];
-            if(i>0){
-                p[i]+=p[i-1];
-            }
-        }
-        ArrayList<long []> tmp = new ArrayList<>();
-        long arr[] = {0,0};
-        tmp.add(arr);
-        for(int i=1;i<n;i++)
-        {
-            int l=1,h=i;
-            long dif = (long)2e18;
-            long [] t = new long[2];
-            while(l<=h)
+            int n=a.length;
+            long [] p = new long[n+1];
+            for(int i=0;i<n;i++)
             {
-                int mid=(l+h)/2;
-                long x=p[mid-1];
-                long y=p[i]-x;
-                if(Math.abs(x-y)<dif)
-                {
-                    dif=Math.abs(x-y);
-                    t[0] = x; t[1] = y;
+                p[i]=a[i];
+                if(i>0){
+                   p[i]+=p[i-1];
                 }
-                if(x>y)
-                {
+            }
+            ArrayList<long []> tmp = new ArrayList<>();
+            long arr[] = {0,0};
+            tmp.add(arr);
+            for(int i=1;i<n;i++)
+            {
+            	int l=1,h=i;
+            	long dif = (long)2e18;
+            	long [] t = new long[2];
+            	while(l<=h)
+            	{
+                    int mid=(l+h)/2;
+                    long x=p[mid-1];
+                    long y=p[i]-x;
+                    if(Math.abs(x-y)<dif)
+                    {
+                    	dif=Math.abs(x-y);
+                        t[0] = x; t[1] = y;
+                    }
+                    if(x>y)
+                    {
                   h=mid-1;
                 }
                 else
