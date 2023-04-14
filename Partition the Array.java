@@ -53,18 +53,14 @@ class Solution
                         t[0] = x; t[1] = y;
                     }
                     if(x>y)
-                    {
-                    h=mid-1;
-                }
-                else
-                {
-                    l=mid+1;
-                }
-            }
-            tmp.add(t);
-        }
-        return tmp;
-    }
+                    	h=mid-1;
+                    else
+                    	l=mid+1;
+            	}
+                tmp.add(t);
+           }
+           return tmp;
+      }
     
     void reverse(int a[])
     {
@@ -87,8 +83,8 @@ class Solution
         Collections.reverse(y);
         for(int i=1;i+2<N;i++) 
         {
-          ans=Math.min(ans, Math.max(Math.max(x.get(i)[0],x.get(i)[1]), Math.max(y.get(i+1)[0],y.get(i+1)[1])) - Math.min(Math.min(x.get(i)[0],x.get(i)[1]), Math.min(y.get(i+1)[0],y.get(i+1)[1])));
+             ans=Math.min(ans, Math.max(Math.max(x.get(i)[0],x.get(i)[1]), Math.max(y.get(i+1)[0],y.get(i+1)[1])) - Math.min(Math.min(x.get(i)[0],x.get(i)[1]), Math.min(y.get(i+1)[0],y.get(i+1)[1])));
         }
-		return ans;
-	}
+	return ans;
+    }
 } 
