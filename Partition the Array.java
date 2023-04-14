@@ -54,11 +54,11 @@ class Solution
                     }
                     if(x>y)
                     {
-                  h=mid-1;
+                    h=mid-1;
                 }
                 else
                 {
-                  l=mid+1;
+                    l=mid+1;
                 }
             }
             tmp.add(t);
