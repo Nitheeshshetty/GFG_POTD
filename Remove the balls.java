@@ -29,19 +29,16 @@ class IntArray
 
 class GFG 
 {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException 
+    {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int t;
         t = Integer.parseInt(br.readLine());
-        while(t-- > 0){
-            
+        while(t-- > 0)
+        {    
             int N;
-            N = Integer.parseInt(br.readLine());
-            
-            
+            N = Integer.parseInt(br.readLine());   
             int[] color = IntArray.input(br, N);
-            
-            
             int[] radius = IntArray.input(br, N);
             
             Solution obj = new Solution();
