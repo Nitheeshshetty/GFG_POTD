@@ -40,12 +40,9 @@ class GFG
             N = Integer.parseInt(br.readLine());   
             int[] color = IntArray.input(br, N);
             int[] radius = IntArray.input(br, N);
-            
             Solution obj = new Solution();
             int res = obj.finLength(N, color, radius);
-            
-            System.out.println(res);
-            
+            System.out.println(res);    
         }
     }
 }
