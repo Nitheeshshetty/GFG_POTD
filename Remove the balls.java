@@ -48,7 +48,8 @@ class GFG
 }
 
 
-class Solution {
+class Solution 
+{
     public static int finLength(int N, int[] color, int[] radius) 
     {
         Stack<Integer> stack = new Stack<>(); 
