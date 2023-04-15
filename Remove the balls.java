@@ -47,8 +47,6 @@ class GFG
     }
 }
 
-// } Driver Code Ends
-
 
 class Solution {
     public static int finLength(int N, int[] color, int[] radius) 
