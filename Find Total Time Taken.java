@@ -43,9 +43,8 @@ class Solution
                ans++;
             } 
             else 
-            { 
                ans += time[arr[i] - 1];
-            }
+            
            
         }
         return ans;
