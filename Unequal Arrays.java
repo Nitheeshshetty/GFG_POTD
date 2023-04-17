@@ -38,18 +38,11 @@ class GFG
         {
             int N;
             N = Integer.parseInt(br.readLine());
-            
-            
             int[] A = IntArray.input(br, N);
-            
-            
             int[] B = IntArray.input(br, N);
-            
             Solution obj = new Solution();
             long res = obj.solve(N, A, B);
-            
-            System.out.println(res);
-            
+            System.out.println(res);   
         }
     }
 }
