@@ -62,9 +62,7 @@ class Solution {
             sumB+=B[i];
         }
         if (sumA != sumB)
-        {
             return -1;
-        }
         Arrays.sort(A);
         Arrays.sort(B);
         int firstA=0;
