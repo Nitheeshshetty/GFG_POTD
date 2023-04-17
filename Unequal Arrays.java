@@ -118,15 +118,13 @@ class Solution {
                     even += Math.abs(A[p]-B[q]);
                     p++;
                     q++;
-                }else if(A[p]%2==0){
+                }else if(A[p]%2==0)
                     p++;
-                }else{
+                else
                     q++;
-                }
             }
-            if (even==0&odd==0){
+            if (even==0&odd==0)
                 return -1;
-            }
             return Math.abs(even + odd)/4;
         }
     }
