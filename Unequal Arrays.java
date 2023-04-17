@@ -113,12 +113,14 @@ class Solution {
             long odd=0;   
             int p=0;
             int q=0;
-            while(p<N && q<N){
+            while(p<N && q<N)
+            {
                 if (A[p]%2!=0&&B[q]%2!=0){
                     even += Math.abs(A[p]-B[q]);
                     p++;
                     q++;
-                }else if(A[p]%2==0)
+                }
+                else if(A[p]%2==0)
                     p++;
                 else
                     q++;
