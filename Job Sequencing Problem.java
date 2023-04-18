@@ -37,14 +37,14 @@ class GfG {
 
 class JobComparator implements Comparator<Job>
 {
-    public int compare(Job j1,Job j2){
+    public int compare(Job j1,Job j2)
+    {
         return j2.profit-j1.profit;
     }
 }
 
 class Solution
 {
-    //Function to find the maximum profit and the number of jobs done.
     int[] JobScheduling(Job arr[], int n)
     {
         Arrays.sort(arr,new JobComparator());
