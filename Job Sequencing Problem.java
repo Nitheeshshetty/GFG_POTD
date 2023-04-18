@@ -33,7 +33,6 @@ class GfG {
         }
     }
 }
-// } Driver Code Ends
 
 
 class JobComparator implements Comparator<Job>
@@ -49,7 +48,6 @@ class Solution
     int[] JobScheduling(Job arr[], int n)
     {
         Arrays.sort(arr,new JobComparator());
-        
         int max_profit=0,tot_jobs=0;
         boolean vis[]=new boolean[n];
         for(int i=0;i<n;i++)
