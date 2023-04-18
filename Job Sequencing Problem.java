@@ -24,7 +24,8 @@ class GfG {
             int n = Integer.parseInt(inputLine[0]);
             Job[] arr = new Job[n];
             inputLine = br.readLine().trim().split(" ");
-            for(int i=0, k=0; i<n; i++){
+            for(int i=0, k=0; i<n; i++)
+	    {
                 arr[i] = new Job(Integer.parseInt(inputLine[k++]), Integer.parseInt(inputLine[k++]), Integer.parseInt(inputLine[k++]));
             }
             Solution ob = new Solution();
