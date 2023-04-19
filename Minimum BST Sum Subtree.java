@@ -100,8 +100,7 @@ class Solution
             return new Quad(0,0,Integer.MAX_VALUE,Integer.MIN_VALUE);
         Quad left=solve(root.left,target);
         Quad right=solve(root.right,target);
-        int curr=root.data+left.sum+right.sum;
-        
+        int curr=root.data+left.sum+right.sum; 
         if(root.data>left.max && root.data<right.min)
         {
             if(target==curr)
