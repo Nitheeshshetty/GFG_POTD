@@ -22,10 +22,9 @@ class Node
         Node root = new Node(Integer.parseInt(ip[0]));
         Queue<Node> queue = new LinkedList<>();
         queue.add(root);
-
-        // Starting from the second element
         int i = 1;
-        while (queue.size() > 0 && i < ip.length) {
+        while (queue.size() > 0 && i < ip.length) 
+        {
 
             // Get and remove the front of the queue
             Node currNode = queue.peek();
