@@ -30,10 +30,7 @@ class Node
             String currVal = ip[i];
             if (!currVal.equals("N")) 
             {
-
-                // Create the left child for the current node
                 currNode.left = new Node(Integer.parseInt(currVal));
-                // Push it to the queue
                 queue.add(currNode.left);
             }
 
