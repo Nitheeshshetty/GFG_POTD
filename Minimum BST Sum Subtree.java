@@ -1,29 +1,25 @@
 import java.io.*;
 import java.util.*;
 
-class Node {
+class Node 
+{
     int data;
     Node left;
     Node right;
-
-    Node(int data) {
+    
+    Node(int data) 
+    {
         this.data = data;
         left = null;
         right = null;
     }
 
-    public static Node buildTree(String str) {
-        // Corner Case
-        if (str.length() == 0 || str.charAt(0) == 'N') return null;
-
-        // Creating array of Strings from input
-        // String after spliting by space
+    public static Node buildTree(String str) 
+    {
+        if (str.length() == 0 || str.charAt(0) == 'N') 
+            return null;
         String ip[] = str.split(" ");
-
-        // Create the root of the tree
         Node root = new Node(Integer.parseInt(ip[0]));
-
-        // Push the root to the queue
         Queue<Node> queue = new LinkedList<>();
         queue.add(root);
 
