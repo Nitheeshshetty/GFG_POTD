@@ -47,12 +47,15 @@ class Node
         return root;
     }
 
-    public static Node inputTree(BufferedReader br) throws IOException {
+    public static Node inputTree(BufferedReader br) throws IOException 
+    {
         return buildTree(br.readLine().trim());
     }
 
-    public static void inorder(Node root) {
-        if (root == null) return;
+    public static void inorder(Node root) 
+    {
+        if (root == null) 
+            return;
         inorder(root.left);
         System.out.print(root.data + " ");
         inorder(root.right);
