@@ -104,9 +104,7 @@ class Solution
         if(root.data>left.max && root.data<right.min)
         {
             if(target==curr)
-            {
                 ans=Math.min(ans,1+left.size+right.size);
-            }
             return new Quad(curr,1+left.size+right.size,Math.min(left.min,root.data),Math.max(right.max,root.data));
         }
         return new Quad(0,0,Integer.MIN_VALUE,Integer.MAX_VALUE);
