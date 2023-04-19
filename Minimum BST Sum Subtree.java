@@ -74,16 +74,12 @@ class GFG
             int target;
             target = Integer.parseInt(br.readLine());
             Node root = Node.inputTree(br);
-
             Solution obj = new Solution();
             int res = obj.minSubtreeSumBST(target, root);
-
             System.out.println(res);
         }
     }
 }
-
-// } Driver Code Ends
 
 
 /*
