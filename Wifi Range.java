@@ -6,8 +6,8 @@ class GFG
     { 
         BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(read.readLine());
-        
-        while(t-- > 0){
+        while(t-- > 0)
+        {
             String input_line[] = read.readLine().trim().split("\\s+");
             int N = Integer.parseInt(input_line[0]);
             int X = Integer.parseInt(input_line[1]);
