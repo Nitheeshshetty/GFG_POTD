@@ -24,15 +24,11 @@ class GfG
            return null;
         String ip[] = str.split(" ");
         Node root = new Node(Integer.parseInt(ip[0]));
-        Queue<Node> queue = new LinkedList<>(); 
-        
+        Queue<Node> queue = new LinkedList<>();         
         queue.add(root);
-        // Starting from the second element
-        
         int i = 1;
-        while(queue.size()>0 && i < ip.length) {
-            
-            // Get and remove the front of the queue
+        while(queue.size()>0 && i < ip.length) 
+	{
             Node currNode = queue.peek();
             queue.remove();
                 
