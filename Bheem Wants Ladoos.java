@@ -44,17 +44,15 @@ class GfG
             if(!currVal.equals("N")) 
 	    {
                 currNode.right = new Node(Integer.parseInt(currVal));
-                    
-                // Push it to the queue
                 queue.add(currNode.right);
             }
             i++;
-        }
-        
+        }        
         return root;
     }
     
-	public static void main (String[] args) throws IOException{
+    public static void main (String[] args) throws IOException
+    {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         
         int t=Integer.parseInt(br.readLine());
