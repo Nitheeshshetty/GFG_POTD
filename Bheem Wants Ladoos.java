@@ -80,9 +80,9 @@ class Solution
 	    return null;
         if(root.data==home) 
 	    return root;
-        
         Node l=search(root.left,home);
-        if(l!=null)return l;
+        if(l!=null)
+	    return l;
         Node r=search(root.right,home);
         return r;
     }
