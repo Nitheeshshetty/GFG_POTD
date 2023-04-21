@@ -16,14 +16,12 @@ class Node
     }
 }
 
-class GfG {
-    
-    static Node buildTree(String str){
-        
-        if(str.length()==0 || str.charAt(0)=='N'){
-            return null;
-        }
-        
+class GfG 
+{    
+    static Node buildTree(String str)
+    {   
+        if(str.length()==0 || str.charAt(0)=='N')
+           return null;
         String ip[] = str.split(" ");
         // Create the root of the tree
         Node root = new Node(Integer.parseInt(ip[0]));
