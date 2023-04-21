@@ -53,19 +53,16 @@ class GfG
     
     public static void main (String[] args) throws IOException
     {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));  
         int t=Integer.parseInt(br.readLine());
-        
-        while(t > 0){
+        while(t > 0)
+	{
             String line = br.readLine().trim();
             Node root = buildTree(line);
-            
             line = br.readLine().trim();
             String target_k[] = line.split(" ");
             int home = Integer.parseInt(target_k[0]);
             int k = Integer.parseInt(target_k[1]);
-            
             Solution x = new Solution();
             System.out.println( x.ladoos(root, home, k) );
             t--;
