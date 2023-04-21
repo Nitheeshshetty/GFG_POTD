@@ -31,16 +31,10 @@ class GfG
 	{
             Node currNode = queue.peek();
             queue.remove();
-                
-            // Get the current node's value from the string
             String currVal = ip[i];
-                
-            // If the left child is not null
-            if(!currVal.equals("N")) {
-                    
-                // Create the left child for the current node
+            if(!currVal.equals("N")) 
+	    {
                 currNode.left = new Node(Integer.parseInt(currVal));
-                // Push it to the queue
                 queue.add(currNode.left);
             }
                 
