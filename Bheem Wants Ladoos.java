@@ -23,10 +23,7 @@ class GfG
         if(str.length()==0 || str.charAt(0)=='N')
            return null;
         String ip[] = str.split(" ");
-        // Create the root of the tree
         Node root = new Node(Integer.parseInt(ip[0]));
-        // Push the root to the queue
-        
         Queue<Node> queue = new LinkedList<>(); 
         
         queue.add(root);
