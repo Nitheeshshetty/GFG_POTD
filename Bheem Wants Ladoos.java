@@ -72,11 +72,14 @@ class GfG
 
 
 
-class Solution{
+class Solution
+{
     static Node search(Node root,int home)
     {
-        if(root==null)return null;
-        if(root.data==home) return root;
+        if(root==null)
+	    return null;
+        if(root.data==home) 
+	    return root;
         
         Node l=search(root.left,home);
         if(l!=null)return l;
