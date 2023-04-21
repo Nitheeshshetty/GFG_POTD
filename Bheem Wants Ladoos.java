@@ -109,12 +109,10 @@ class Solution
         while(q.size()>0)
         {
             int size=q.size();
-            
             for(int i=0;i<size;i++)
             {
                 Node temp= q.poll();
-                Sum+=temp.data;
-                
+                Sum+=temp.data; 
                 if(temp.left!=null && !visited.contains(temp.left)) //left SubTree
                 {
                     q.add(temp.left);
@@ -132,10 +130,10 @@ class Solution
                 }
             }
             k--;
-            if(k<0)break;
+            if(k<0)
+		break;
         }
-        return Sum;
-        
+        return Sum;   
     }
 }
 
