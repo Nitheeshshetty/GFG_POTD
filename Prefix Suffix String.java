@@ -8,7 +8,8 @@ public class code1
         BufferedReader in=new BufferedReader(new InputStreamReader(System.in));
         PrintWriter out=new PrintWriter(System.out);
         int t=Integer.parseInt(in.readLine());
-        while(t-->0){
+        while(t-->0)
+        {
             String s1[]=in.readLine().trim().split(" ");
             String s2[]=in.readLine().trim().split(" ");
 
@@ -20,7 +21,6 @@ public class code1
         out.close();
     }
 }
-// } Driver Code Ends
 
 
 //User function Template for Java
