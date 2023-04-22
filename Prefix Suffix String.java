@@ -78,7 +78,8 @@ class Solution
             String rev = new StringBuilder(s).reverse().toString();
             t2.insert(rev);
         }
-        for (String s : s2) {
+        for (String s : s2) 
+        {
            boolean found = false;
            found |= t1.search(s);          
            String rev = new StringBuilder(s).reverse().toString();           
