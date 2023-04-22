@@ -85,8 +85,8 @@ class Solution
            String rev = new StringBuilder(s).reverse().toString();
             
            found |= t2.search(rev);
-           
-           if (found) count++;
+           if (found) 
+               count++;
         }
         return count;
     }
