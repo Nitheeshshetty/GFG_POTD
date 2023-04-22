@@ -80,10 +80,8 @@ class Solution
         }
         for (String s : s2) {
            boolean found = false;
-           found |= t1.search(s);
-           
-           String rev = new StringBuilder(s).reverse().toString();
-            
+           found |= t1.search(s);          
+           String rev = new StringBuilder(s).reverse().toString();           
            found |= t2.search(rev);
            if (found) 
                count++;
