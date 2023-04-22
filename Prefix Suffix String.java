@@ -23,7 +23,7 @@ public class code1
 }
 
 
-//User function Template for Java
+
 class TrieNode 
 {
     TrieNode[] children = new TrieNode[26];
