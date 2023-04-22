@@ -60,7 +60,6 @@ class Trie
             }
             curr = curr.children[index];
         }
-        
         return true;
     }
 }
