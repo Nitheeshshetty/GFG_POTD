@@ -88,7 +88,6 @@ class Solution
            
            if (found) count++;
         }
-        
         return count;
     }
 }
