@@ -38,9 +38,7 @@ class Trie
             char ch = s.charAt(i);
             int index = ch - 'a';
             if (curr.children[index] == null) 
-            {
                 curr.children[index] = new TrieNode();
-            }
             curr = curr.children[index];
         }
     }
