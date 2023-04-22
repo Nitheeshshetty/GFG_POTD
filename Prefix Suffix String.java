@@ -12,11 +12,9 @@ public class code1
         {
             String s1[]=in.readLine().trim().split(" ");
             String s2[]=in.readLine().trim().split(" ");
-
             Solution ob=new Solution();
             int ans=ob.prefixSuffixString(s1,s2);
             out.println(ans);
-
         }
         out.close();
     }
