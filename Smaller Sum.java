@@ -13,14 +13,13 @@ public class GFG
             int n=Integer.parseInt(in.readLine());
             String s[]=in.readLine().trim().split(" ");
             int a[]=new int[n];
-            for(int i=0;i<n;i++){
+            for(int i=0;i<n;i++)
                 a[i]=Integer.parseInt(s[i]);
-            }
             Solution ob=new Solution();
             long ans[]=ob.smallerSum(n,a);
-            for(long i:ans){
+            for(long i:ans)
                 out.print(i+" ");
-            }out.println();
+            out.println();
         }
         out.close();
     }
