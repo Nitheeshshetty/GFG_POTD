@@ -33,15 +33,13 @@ class Solution
     {
         long ans[]=new long[n];
         long asc[]=new long[n];
-        for(int i=0; i<n; i++){
+        for(int i=0; i<n; i++)
             asc[i] = arr[i];
-        }
         Arrays.sort(asc);
         long p_sum[]=new long[n];
         p_sum[0]=asc[0];
-        for(int i=1; i<n; i++){
+        for(int i=1; i<n; i++)
             p_sum[i] = asc[i] + p_sum[i-1];
-        }
         for(int i=0; i<n; i++)
         {
             if(asc[0]==arr[i])
