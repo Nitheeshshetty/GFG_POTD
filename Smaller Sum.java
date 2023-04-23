@@ -48,7 +48,8 @@ class Solution
                 continue;
             }
             int l=0,r=n-1;
-            while(l<r){
+            while(l<r)
+            {
                 int mid=(l+r+1)/2;
                 if(asc[mid]>=arr[i])
                     r=mid-1;
