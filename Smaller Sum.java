@@ -8,7 +8,8 @@ public class GFG
         BufferedReader in=new BufferedReader(new InputStreamReader(System.in));
         PrintWriter out=new PrintWriter(System.out);
         int t=Integer.parseInt(in.readLine());
-        while(t-->0){
+        while(t-->0)
+        {
             int n=Integer.parseInt(in.readLine());
             String s[]=in.readLine().trim().split(" ");
             int a[]=new int[n];
