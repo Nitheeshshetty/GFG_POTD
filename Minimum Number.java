@@ -28,7 +28,8 @@ class IntArray
     }
 }
 
-class GFG {
+class GFG 
+{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int t;
