@@ -42,7 +42,6 @@ class GFG
             int[] arr = IntArray.input(br, n);
             Solution obj = new Solution();
             int res = obj.minimumNumber(n, arr);
-            
             System.out.println(res);
             
         }
