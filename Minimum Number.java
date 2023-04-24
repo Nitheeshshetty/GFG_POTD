@@ -53,9 +53,7 @@ class Solution {
     {
         int ans=0;
         for(int i=0;i<n;i++)
-        {
             ans=gcd(ans,arr[i]);
-        }
         return ans;
     }
     
