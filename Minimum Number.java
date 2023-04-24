@@ -9,7 +9,6 @@ class IntArray
         int[] a = new int[n];
         for(int i = 0; i < n; i++)
             a[i] = Integer.parseInt(s[i]);
-
         return a;
     }
 
