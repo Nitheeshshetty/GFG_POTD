@@ -27,8 +27,10 @@ class GFG
 
 
 
-class Solution{
-	int [] nearestSmallestTower(int [] arr){
+class Solution
+{
+    int [] nearestSmallestTower(int [] arr)
+    {
 	    int n = arr.length;
         Stack<Integer> left = new Stack<>();
         Stack<Integer> right = new Stack<>();
