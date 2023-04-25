@@ -62,7 +62,6 @@ class Solution
                 else
                     res[i] = right.peek();
             }
-
             right.push(i);
         }
 
