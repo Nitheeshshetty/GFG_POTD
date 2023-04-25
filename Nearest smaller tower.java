@@ -38,10 +38,7 @@ class Solution
         for (int i = 0; i < n; i++)
         {
             while (!left.empty() && arr[left.peek()] >= arr[i])
-            {
                 left.pop();
-            }
-
             if (!left.empty())
             {
                 res[i] = left.peek();
