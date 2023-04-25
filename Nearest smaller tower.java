@@ -64,7 +64,6 @@ class Solution
             }
             right.push(i);
         }
-
         return res;
-	}
+    }
 }
