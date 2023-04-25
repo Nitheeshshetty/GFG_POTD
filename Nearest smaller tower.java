@@ -40,10 +40,7 @@ class Solution
             while (!left.empty() && arr[left.peek()] >= arr[i])
                 left.pop();
             if (!left.empty())
-            {
                 res[i] = left.peek();
-            }
-
             left.push(i);
         }
 
