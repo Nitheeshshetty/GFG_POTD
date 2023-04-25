@@ -15,11 +15,11 @@ class GFG
 	    String [] str = br.readLine().trim().split(" ");
 	    for(int i = 0; i < n; i++)
 		arr[i] = Integer.parseInt(str[i]);
-			Solution ob = new Solution();
-			int [] ans = ob.nearestSmallestTower(arr);
-			for(int i = 0; i < n; i++)
-				System.out.print(ans[i]+" ");
-			System.out.println();
+	    Solution ob = new Solution();
+	    int [] ans = ob.nearestSmallestTower(arr);
+	    for(int i = 0; i < n; i++)
+		System.out.print(ans[i]+" ");
+	    System.out.println();
 		}
 		
 	}
