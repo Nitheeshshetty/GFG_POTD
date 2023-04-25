@@ -6,9 +6,10 @@ class GFG
 {
     public static void main(String [] args) throws IOException 
     {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int test = Integer.parseInt(br.readLine());
-		while(test-- > 0) {
+	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	int test = Integer.parseInt(br.readLine());
+	while(test-- > 0) 
+	{
 			int n = Integer.parseInt(br.readLine());
 			int [] arr = new int[n];
 			String [] str = br.readLine().trim().split(" ");
