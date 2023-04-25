@@ -43,14 +43,10 @@ class Solution
                 res[i] = left.peek();
             left.push(i);
         }
-
         for (int i = n - 1; i >= 0; i--)
         {
             while (!right.empty() && arr[right.peek()] >= arr[i])
-            {
                 right.pop();
-            }
-
             if (!right.empty())
             {
                 if (res[i] != -1)
