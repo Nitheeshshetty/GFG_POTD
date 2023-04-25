@@ -10,11 +10,11 @@ class GFG
 	int test = Integer.parseInt(br.readLine());
 	while(test-- > 0) 
 	{
-			int n = Integer.parseInt(br.readLine());
-			int [] arr = new int[n];
-			String [] str = br.readLine().trim().split(" ");
-			for(int i = 0; i < n; i++)
-				arr[i] = Integer.parseInt(str[i]);
+	    int n = Integer.parseInt(br.readLine());
+	    int [] arr = new int[n];
+	    String [] str = br.readLine().trim().split(" ");
+	    for(int i = 0; i < n; i++)
+		arr[i] = Integer.parseInt(str[i]);
 			Solution ob = new Solution();
 			int [] ans = ob.nearestSmallestTower(arr);
 			for(int i = 0; i < n; i++)
