@@ -31,12 +31,11 @@ class Solution
 {
     int [] nearestSmallestTower(int [] arr)
     {
-	    int n = arr.length;
+	int n = arr.length;
         Stack<Integer> left = new Stack<>();
         Stack<Integer> right = new Stack<>();
         int [] res = new int[n];
         Arrays.fill(res, -1);
-
         for (int i = 0; i < n; i++)
         {
             while (!left.empty() && arr[left.peek()] >= arr[i])
