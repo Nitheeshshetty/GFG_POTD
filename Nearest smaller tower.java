@@ -20,11 +20,10 @@ class GFG
 	    for(int i = 0; i < n; i++)
 		System.out.print(ans[i]+" ");
 	    System.out.println();
-		}
-		
 	}
+		
+    }
 }
-// } Driver Code Ends
 
 
 //User function Template for Java
