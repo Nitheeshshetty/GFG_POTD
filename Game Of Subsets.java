@@ -4,7 +4,8 @@ import java.io.*;
 
 class GFG 
 {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException 
+    {
         Scanner sc = new Scanner(System.in);
         int T = sc.nextInt();
         while (T-- > 0) {
