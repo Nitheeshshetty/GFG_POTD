@@ -20,10 +20,7 @@ class GFG
         }
     }
 }
-// } Driver Code Ends
 
-
-// User function Template for Java
 
 class Solution {
     static int mod= (int) 1e9 + 7;
