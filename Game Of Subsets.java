@@ -32,13 +32,13 @@ class Solution
         mod = (int) 1e9 + 7;
         maskPrime = new int[31];
         int[] primeNumbers = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29};
-        for (int i = 2; i <= 30; ++i) {
+        for (int i = 2; i <= 30; ++i) 
+        {
             if (i % 4 == 0 || i % 9 == 0 || i == 25) 
                 continue;
             int mask = 0;
-            for (int j = 0; j < 10; ++j) {
+            for (int j = 0; j < 10; ++j)
                 if (i % primeNumbers[j] == 0) mask |= 1 << j;
-            }
             maskPrime[i] = mask;
         }
     }
