@@ -2,9 +2,8 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-// Position this line where user code will be pasted.
-
-class GFG {
+class GFG 
+{
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         int T = sc.nextInt();
