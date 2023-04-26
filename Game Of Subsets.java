@@ -56,8 +56,8 @@ class Solution
         return result;
     }
     
-    public static int goodSubsets(int[] arr, int n) {
-        
+    public static int goodSubsets(int[] arr, int n) 
+    {    
         int[] array = arr;
         int size = n;
         int oneCount = 0;
