@@ -43,9 +43,11 @@ class Solution
         }
     }
     
-    public static long powerOfTwo(int n) {
+    public static long powerOfTwo(int n) 
+    {
         long result = 1, value = 2;
-        while (n != 0) {
+        while (n != 0) 
+        {
             if ((n & 1) == 1) 
                 result = (result * value) % mod;
             value = (value * value) % mod;
