@@ -22,11 +22,13 @@ class GFG
 }
 
 
-class Solution {
+class Solution 
+{
     static int mod= (int) 1e9 + 7;
     static int[] maskPrime = new int[31];
     
-    public Solution() {
+    public Solution() 
+    {
         mod = (int) 1e9 + 7;
         maskPrime = new int[31];
         int[] primeNumbers = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29};
