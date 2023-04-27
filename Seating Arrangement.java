@@ -1,8 +1,10 @@
 import java.io.*;
 import java.util.*;
 
-class GFG {
-    public static void main(String[] args) throws IOException {
+class GFG 
+{
+    public static void main(String[] args) throws IOException 
+    {
         BufferedReader in=new BufferedReader(new InputStreamReader(System.in));
         PrintWriter out=new PrintWriter(System.out);
         int test = Integer.parseInt(in.readLine().trim());
