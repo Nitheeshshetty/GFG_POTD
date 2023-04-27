@@ -27,13 +27,12 @@ class GFG
 
 
 
-class Solution {
+class Solution 
+{
     public static boolean is_possible_to_get_seats(int n, int m, int[] seats) 
     {
         if(n>m)
-        {
             return false;
-        }
         if(seats[0]==0 && seats[1]==0)
         {
             seats[0]=1;
