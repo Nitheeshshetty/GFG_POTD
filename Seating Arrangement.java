@@ -8,12 +8,14 @@ class GFG
         BufferedReader in=new BufferedReader(new InputStreamReader(System.in));
         PrintWriter out=new PrintWriter(System.out);
         int test = Integer.parseInt(in.readLine().trim());
-        while(test-- > 0){
+        while(test-- > 0)
+        {
             int n = Integer.parseInt(in.readLine().trim());
             int m = Integer.parseInt(in.readLine().trim());
             String s[]=in.readLine().trim().split(" ");
             int [] seats = new int[m];
-            for(int i = 0; i < m; i++){
+            for(int i = 0; i < m; i++)
+            {
                 seats[i] = Integer.parseInt(s[i]);
             }
             Solution obj = new Solution();
