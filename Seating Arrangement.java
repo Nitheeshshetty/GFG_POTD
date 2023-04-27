@@ -15,12 +15,9 @@ class GFG
             String s[]=in.readLine().trim().split(" ");
             int [] seats = new int[m];
             for(int i = 0; i < m; i++)
-            {
                 seats[i] = Integer.parseInt(s[i]);
-            }
             Solution obj = new Solution();
-            boolean res = obj.is_possible_to_get_seats(n, m, seats);
-            
+            boolean res = obj.is_possible_to_get_seats(n, m, seats);         
             String _result_val = (res) ? "Yes" : "No";
             out.println(_result_val);
         }
