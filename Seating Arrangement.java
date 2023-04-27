@@ -46,9 +46,7 @@ class Solution
                 n--;
             }
             else
-            {
                 continue;
-            }
         }
         if(seats[m-2]==0 && seats[m-1]==0){
             n--;
