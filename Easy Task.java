@@ -74,9 +74,6 @@ class Solution
     }
 }
 
-
-
-
 class query
 {
     String type;
