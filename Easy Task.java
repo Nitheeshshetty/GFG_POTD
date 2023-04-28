@@ -18,11 +18,10 @@ class GFG
             {
                 String str=in.readLine().trim();
                 String st[]=str.split(" ");
-                if(st[0].trim().equals("1")){
+                if(st[0].trim().equals("1"))
                     a[i]=new query("1",st[1],st[2],"");
-                }else{
+                else
                     a[i]=new query("2",st[1],st[2],st[3]);
-                }
             }
             Solution ob=new Solution();
             ArrayList<Character> ans=ob.easyTask(n,s,q,a);
