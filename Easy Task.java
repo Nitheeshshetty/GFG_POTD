@@ -32,10 +32,7 @@ class GFG
         out.close();
     }
 }
-// } Driver Code Ends
 
-
-//User function Template for Java
 
 class Solution {
     public static ArrayList<Character> easyTask(int n,String s,int q,query queries[])
