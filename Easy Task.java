@@ -41,11 +41,10 @@ class Solution
         ArrayList<Character> list=new ArrayList<>();
         for(int i=0;i<q;i++)
         {
-            if(queries[i].type=="1"){
+            if(queries[i].type=="1")
                 s=getType1(s,Integer.parseInt(queries[i].a),queries[i].b.charAt(0));
-            }else{
+            else
                 list.add(getType2(s,Integer.parseInt(queries[i].a),Integer.parseInt(queries[i].b),Integer.parseInt(queries[i].c)));
-            }
         }
         return list;
     }
