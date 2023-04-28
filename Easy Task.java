@@ -1,9 +1,10 @@
 import java.io.*;
 import java.util.*;
 
-class GFG{
-    
-	public static void main (String[] args) throws Exception{
+class GFG
+{   
+    public static void main (String[] args) throws Exception
+    {
         
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         PrintWriter out=new PrintWriter(System.out);
