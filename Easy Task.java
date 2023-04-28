@@ -34,11 +34,13 @@ class GFG
 }
 
 
-class Solution {
+class Solution 
+{
     public static ArrayList<Character> easyTask(int n,String s,int q,query queries[])
     {
         ArrayList<Character> list=new ArrayList<>();
-        for(int i=0;i<q;i++){
+        for(int i=0;i<q;i++)
+        {
             if(queries[i].type=="1"){
                 s=getType1(s,Integer.parseInt(queries[i].a),queries[i].b.charAt(0));
             }else{
