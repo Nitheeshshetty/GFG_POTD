@@ -25,9 +25,9 @@ class GFG
             }
             Solution ob=new Solution();
             ArrayList<Character> ans=ob.easyTask(n,s,q,a);
-            for(char ch:ans){
+            for(char ch:ans)
                 out.print(ch+" ");
-            }out.println();
+            out.println();
         }
         out.close();
     }
