@@ -52,9 +52,8 @@ class Solution
     public static char getType2(String s,int left,int right,int k)
     {
         int[] freq=new int[26];
-        for(int i=left;i<=right;i++){
+        for(int i=left;i<=right;i++)
             freq[(int)(s.charAt(i))-(int)'a']++;
-        }
         int count=0;
         for(int i=25;i>=0;i--){
             while(count<k && freq[i]>0){
