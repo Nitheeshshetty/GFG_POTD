@@ -8,12 +8,14 @@ class GFG
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         PrintWriter out=new PrintWriter(System.out);           
         int t=Integer.parseInt(in.readLine());
-        while(t-- > 0){
+        while(t-- > 0)
+        {
             int n=Integer.parseInt(in.readLine().trim());
             String s=in.readLine().trim();
             int q=Integer.parseInt(in.readLine().trim());
             query a[]=new query[q];
-            for(int i=0;i<q;i++){
+            for(int i=0;i<q;i++)
+            {
                 String str=in.readLine().trim();
                 String st[]=str.split(" ");
                 if(st[0].trim().equals("1")){
