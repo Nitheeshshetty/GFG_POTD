@@ -74,10 +74,7 @@ class Solution
     }
 }
 
-/*In case the query is of type 1.
-type=1
-c=null
-*/
+
 
 
 class query
