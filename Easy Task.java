@@ -55,14 +55,14 @@ class Solution
         for(int i=left;i<=right;i++)
             freq[(int)(s.charAt(i))-(int)'a']++;
         int count=0;
-        for(int i=25;i>=0;i--){
+        for(int i=25;i>=0;i--)
+        {
             while(count<k && freq[i]>0){
                 count++;
                 freq[i]--;
             }
-            if(count==k){
+            if(count==k)
                 return (char)((int)'a'+i);
-            }
         }
         return 'a';
     }
