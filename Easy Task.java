@@ -57,7 +57,8 @@ class Solution
         int count=0;
         for(int i=25;i>=0;i--)
         {
-            while(count<k && freq[i]>0){
+            while(count<k && freq[i]>0)
+            {
                 count++;
                 freq[i]--;
             }
