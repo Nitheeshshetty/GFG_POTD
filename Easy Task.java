@@ -79,10 +79,6 @@ type=1
 c=null
 */
 
-/*In case the query is of type 2.
-type=2
-c=k
-*/
 
 class query
 {
