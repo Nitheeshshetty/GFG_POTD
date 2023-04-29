@@ -22,11 +22,9 @@ class Gfg
             }
             Solution ob=new Solution();
             int ans[][]=ob.chefAndWells(n, m, c);
-
-            for(int i=0;i<n;i++){
+            for(int i=0;i<n;i++)
                 for(int j=0;j<m;j++){
                     out.print(ans[i][j]+" ");
-                }
                 out.println();
             }
         }
