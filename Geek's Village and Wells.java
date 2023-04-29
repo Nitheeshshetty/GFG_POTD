@@ -45,8 +45,10 @@ class Solution
     {
         int[][] output = new int[n][m];
         Queue<int[]> queue = new LinkedList<>();
-        for (int i=0; i < n; i++) {
-            for (int j=0; j < m; j++) {
+        for (int i=0; i < n; i++) 
+        {
+            for (int j=0; j < m; j++) 
+            {
                 if (c[i][j] == 'W')
                     queue.offer(new int[]{0, i, j});
             }
