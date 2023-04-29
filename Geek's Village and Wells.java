@@ -35,8 +35,7 @@ class Gfg
 
 class Solution
 {
-    private static final int[][] dirs = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
-    
+    private static final int[][] dirs = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};    
     private boolean areCoordinatesValid(int row, int col, int n, int m) 
     {
         return row >= 0 && row < n && col >= 0 && col < m;
@@ -48,9 +47,8 @@ class Solution
         Queue<int[]> queue = new LinkedList<>();
         for (int i=0; i < n; i++) {
             for (int j=0; j < m; j++) {
-                if (c[i][j] == 'W') {
+                if (c[i][j] == 'W')
                     queue.offer(new int[]{0, i, j});
-                }
             }
         }
         
