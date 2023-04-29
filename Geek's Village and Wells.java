@@ -33,7 +33,6 @@ class Gfg
 }
 
 
-//User function Template for Java
 class Solution
 {
     private static final int[][] dirs = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
