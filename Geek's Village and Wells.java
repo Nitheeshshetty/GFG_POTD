@@ -81,10 +81,11 @@ class Solution
             {
                 if (c[i][j] == '.')
                     output[i][j] = 0;
-                else if (c[i][j] == 'H') {
-                    if (output[i][j] == 0) {
+                else if (c[i][j] == 'H') 
+                {
+                    if (output[i][j] == 0)
                         output[i][j] = -1;
-                    } else {
+                    else {
                         output[i][j] = 2 * output[i][j];
                     }
                 } 
