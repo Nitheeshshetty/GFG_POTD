@@ -52,9 +52,11 @@ class Solution
             }
         }
         
-        while (!queue.isEmpty()) {
+        while (!queue.isEmpty()) 
+        {
             int size = queue.size();
-            while (size-- > 0) {
+            while (size-- > 0) 
+            {
                 int[] curr = queue.poll();
                 int row = curr[1];
                 int col = curr[2];
