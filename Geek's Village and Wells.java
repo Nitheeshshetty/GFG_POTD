@@ -79,9 +79,8 @@ class Solution
         {
             for (int j=0; j < m; j++) 
             {
-                if (c[i][j] == '.') {
+                if (c[i][j] == '.')
                     output[i][j] = 0;
-                }
                 else if (c[i][j] == 'H') {
                     if (output[i][j] == 0) {
                         output[i][j] = -1;
