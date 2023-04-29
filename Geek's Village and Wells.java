@@ -52,8 +52,7 @@ class Solution
                 if (c[i][j] == 'W')
                     queue.offer(new int[]{0, i, j});
             }
-        }
-        
+        }        
         while (!queue.isEmpty()) 
         {
             int size = queue.size();
@@ -63,10 +62,12 @@ class Solution
                 int row = curr[1];
                 int col = curr[2];
                 int dist = curr[0];
-                for (int[] dir : dirs) {
+                for (int[] dir : dirs) 
+                {
                     int nRow = row + dir[0];
                     int nCol = col + dir[1];
-                    if (areCoordinatesValid(nRow, nCol, n, m) && output[nRow][nCol] == 0 && c[nRow][nCol] != 'N' && c[nRow][nCol] != 'W') {
+                    if (areCoordinatesValid(nRow, nCol, n, m) && output[nRow][nCol] == 0 && c[nRow][nCol] != 'N' && c[nRow][nCol] != 'W') 
+                    {
                         queue.offer(new int[]{dist + 1, nRow, nCol});
                         output[nRow][nCol] = dist + 1;
                         
