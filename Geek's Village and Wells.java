@@ -14,11 +14,11 @@ class Gfg
             int n=Integer.parseInt(s[0]);
             int m=Integer.parseInt(s[1]);
             char c[][]=new char[n][m];
-            for(int i=0;i<n;i++){
+            for(int i=0;i<n;i++)
+            {
                 s=in.readLine().trim().split(" ");
-                for(int j=0;j<m;j++){
+                for(int j=0;j<m;j++)
                     c[i][j]=s[j].charAt(0);
-                }
             }
             Solution ob=new Solution();
             int ans[][]=ob.chefAndWells(n, m, c);
