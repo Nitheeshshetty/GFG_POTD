@@ -85,9 +85,8 @@ class Solution
                 {
                     if (output[i][j] == 0)
                         output[i][j] = -1;
-                    else {
+                    else
                         output[i][j] = 2 * output[i][j];
-                    }
                 } 
             }
         }
