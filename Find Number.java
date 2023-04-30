@@ -29,9 +29,7 @@ class Solution
         {
             long cur=N%5;
             if(cur==0)
-            {
                 s=arr[4]+s;
-            }
             else{
                 s=arr[(int)cur-1]+s;
             }
