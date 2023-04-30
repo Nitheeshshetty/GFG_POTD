@@ -30,9 +30,8 @@ class Solution
             long cur=N%5;
             if(cur==0)
                 s=arr[4]+s;
-            else{
+            else
                 s=arr[(int)cur-1]+s;
-            }
             if(N%5==0 && N>0)
             {
                 N=N/5-1;
