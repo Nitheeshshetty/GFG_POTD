@@ -33,9 +33,7 @@ class Solution
             else
                 s=arr[(int)cur-1]+s;
             if(N%5==0 && N>0)
-            {
                 N=N/5-1;
-            }
             else
             {
                 N=N/5;
