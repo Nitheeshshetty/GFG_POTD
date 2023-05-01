@@ -41,8 +41,7 @@ class Solution{
         }
         int ans = -1;
         for (int i=1; i < prefix.length; i++) {
-            prefix[i] = prefix[i - 1] + prefix[i];
-            
+            prefix[i] = prefix[i - 1] + prefix[i];            
             if (prefix[i] >= k) {
                 ans = i;
             }
