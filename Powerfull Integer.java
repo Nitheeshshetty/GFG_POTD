@@ -27,7 +27,6 @@ class GFG
 }
 
 
-
 class Solution{
     public static int powerfullInteger(int n,int interval[][],int k)
     {
