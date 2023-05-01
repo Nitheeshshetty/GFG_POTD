@@ -31,9 +31,8 @@ class Solution{
     public static int powerfullInteger(int n,int interval[][],int k)
     {
         int max = Integer.MIN_VALUE;
-        for (int i=0; i < interval.length; i++) {
+        for (int i=0; i < interval.length; i++)
             max = Math.max(max, interval[i][1]);
-        }
         int[] prefix = new int[max + 2];
         for (int i=0; i < interval.length; i++) {
             prefix[interval[i][0]]++;
