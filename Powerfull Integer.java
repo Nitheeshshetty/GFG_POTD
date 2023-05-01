@@ -43,9 +43,8 @@ class Solution{
         for (int i=1; i < prefix.length; i++) 
         {
             prefix[i] = prefix[i - 1] + prefix[i];            
-            if (prefix[i] >= k) {
+            if (prefix[i] >= k)
                 ans = i;
-            }
         }
         return ans;  
     }
