@@ -27,7 +27,8 @@ class GFG
 }
 
 
-class Solution{
+class Solution
+{
     public static int powerfullInteger(int n,int interval[][],int k)
     {
         int max = Integer.MIN_VALUE;
