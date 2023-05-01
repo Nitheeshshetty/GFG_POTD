@@ -40,7 +40,8 @@ class Solution{
             prefix[interval[i][1] + 1]--;
         }
         int ans = -1;
-        for (int i=1; i < prefix.length; i++) {
+        for (int i=1; i < prefix.length; i++) 
+        {
             prefix[i] = prefix[i - 1] + prefix[i];            
             if (prefix[i] >= k) {
                 ans = i;
