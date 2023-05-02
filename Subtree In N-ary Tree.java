@@ -9,9 +9,7 @@ public class Main
     {
         br = new BufferedReader(new InputStreamReader(System.in));
         ot = new PrintWriter(System.out);
-
         int t = Integer.parseInt(br.readLine());
-
         while(t-->0){
             
             String s[] = br.readLine().trim().split(" ");
