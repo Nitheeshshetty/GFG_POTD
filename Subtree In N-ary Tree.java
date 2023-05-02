@@ -16,7 +16,8 @@ public class Main
             N_ary_Tree tree = new N_ary_Tree();
             Node curr = null;
             Queue<Node> q = new LinkedList<>();
-            for(int i = 0; i < s.length; i++){
+            for(int i = 0; i < s.length; i++)
+            {
                 if(i == 0){
                     curr = tree.add(Integer.parseInt(s[0]), null);
                 } else if(s[i].equals(" ")){
