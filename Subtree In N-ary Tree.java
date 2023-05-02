@@ -95,6 +95,5 @@ class Solution
             s+=solve(n);
         map.put(s,map.getOrDefault(s,0)+1);
         return s;
-    }
-    
+    }    
 }
