@@ -92,9 +92,7 @@ class Solution
     {
         String s=root.data+"";
         for(Node n:root.children)
-        {
             s+=solve(n);
-        }
         map.put(s,map.getOrDefault(s,0)+1);
         return s;
     }
