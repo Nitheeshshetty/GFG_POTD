@@ -38,11 +38,13 @@ public class Main
 class Node{
     int data;
     List<Node> children;
-    Node(int val){
+    Node(int val)
+    {
         this.data = val;
         this.children = new ArrayList<>();
     }
 }
+
 class N_ary_Tree{
     Node root;
     int size;
