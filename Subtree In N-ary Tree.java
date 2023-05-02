@@ -73,7 +73,8 @@ class N_ary_Tree
 }
 
 
-class Solution{
+class Solution
+{
     HashMap<String,Integer>map=new HashMap<>();
     public int duplicateSubtreeNaryTree(Node root)
     {
