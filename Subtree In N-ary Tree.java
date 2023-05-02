@@ -20,9 +20,9 @@ public class Main
             {
                 if(i == 0)
                     curr = tree.add(Integer.parseInt(s[0]), null);
-                else if(s[i].equals(" ")){
+                else if(s[i].equals(" "))
                     continue;
-                } else if(!q.isEmpty() && s[i].equals("N")){
+                else if(!q.isEmpty() && s[i].equals("N")){
                     curr = q.remove();
                 } else if(!s[i].equals("N")){
                     q.add(tree.add(Integer.parseInt(s[i]), curr));
