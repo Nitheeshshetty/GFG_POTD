@@ -31,7 +31,6 @@ public class Main
             Solution soln = new Solution();
             ot.println(soln.duplicateSubtreeNaryTree(tree.root));
         }
-
         ot.close();
     }
 }
