@@ -35,7 +35,8 @@ public class Main
     }
 }
 
-class Node{
+class Node
+{
     int data;
     List<Node> children;
     Node(int val)
@@ -45,10 +46,12 @@ class Node{
     }
 }
 
-class N_ary_Tree{
+class N_ary_Tree
+{
     Node root;
     int size;
-    N_ary_Tree(){
+    N_ary_Tree()
+    {
         this.size = 0;
         this.root = null;
     }
