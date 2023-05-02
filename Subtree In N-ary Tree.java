@@ -63,7 +63,8 @@ class N_ary_Tree
             this.root = node;
             this.size = 1;
         } 
-        else{
+        else
+        {
             parent.children.add(node);
             this.size++;
         }
