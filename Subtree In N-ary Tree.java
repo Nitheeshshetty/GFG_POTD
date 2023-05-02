@@ -18,9 +18,9 @@ public class Main
             Queue<Node> q = new LinkedList<>();
             for(int i = 0; i < s.length; i++)
             {
-                if(i == 0){
+                if(i == 0)
                     curr = tree.add(Integer.parseInt(s[0]), null);
-                } else if(s[i].equals(" ")){
+                else if(s[i].equals(" ")){
                     continue;
                 } else if(!q.isEmpty() && s[i].equals("N")){
                     curr = q.remove();
