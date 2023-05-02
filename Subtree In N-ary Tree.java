@@ -55,12 +55,15 @@ class N_ary_Tree
         this.size = 0;
         this.root = null;
     }
-    Node add(int key, Node parent){
+    Node add(int key, Node parent)
+    {
         Node node = new Node(key);
-        if(parent == null){
+        if(parent == null)
+        {
             this.root = node;
             this.size = 1;
-        } else{
+        } 
+        else{
             parent.children.add(node);
             this.size++;
         }
