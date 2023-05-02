@@ -24,9 +24,9 @@ public class Main
                     continue;
                 else if(!q.isEmpty() && s[i].equals("N"))
                     curr = q.remove();
-                else if(!s[i].equals("N")){
+                else if(!s[i].equals("N"))
                     q.add(tree.add(Integer.parseInt(s[i]), curr));
-                }
+             
             }
             Solution soln = new Solution();
             ot.println(soln.duplicateSubtreeNaryTree(tree.root));
