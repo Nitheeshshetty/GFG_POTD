@@ -34,6 +34,7 @@ public class Main
         ot.close();
     }
 }
+
 class Node{
     int data;
     List<Node> children;
