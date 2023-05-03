@@ -47,9 +47,8 @@ class Solution
             }
             if (pieces > K) 
                 left = mid;
-            else {
+            else 
                 right = mid - 1;
-            }
         }
         return left;
    }
