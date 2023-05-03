@@ -25,7 +25,6 @@ class GFG
 }
 
 
-
 class Solution{
     int maxSweetness(int [] sweetness, int N, int K) {
 	int left=1;
