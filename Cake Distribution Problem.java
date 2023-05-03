@@ -39,7 +39,8 @@ class Solution
             for (int s : sweetness) 
 	    {
                 currentSweetness += s;
-                if (currentSweetness >= mid) {
+                if (currentSweetness >= mid) 
+		{
                     pieces++;
                     currentSweetness = 0;
                 }
