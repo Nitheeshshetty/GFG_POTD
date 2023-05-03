@@ -48,5 +48,5 @@ class Solution{
             }
         }
         return left;
-	}
+   }
 }
