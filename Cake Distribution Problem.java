@@ -43,9 +43,8 @@ class Solution
                     currentSweetness = 0;
                 }
             }
-            if (pieces > K) {
+            if (pieces > K) 
                 left = mid;
-            } 
             else {
                 right = mid - 1;
             }
