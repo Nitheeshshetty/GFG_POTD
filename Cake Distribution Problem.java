@@ -16,9 +16,8 @@ class GFG
 	   int [] sweetness = new int[n];
 	   str = br.readLine().trim().split(" ");
 	   int i = 0;
-	   for(String s: str) {
+	   for(String s: str)
 		sweetness[i++] = Integer.parseInt(s);
-	   }
 	   Solution obj = new Solution();
 	   System.out.println(obj.maxSweetness(sweetness, n, k));
 	}
