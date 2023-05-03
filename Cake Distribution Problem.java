@@ -4,7 +4,8 @@ import java.lang.*;
 
 class GFG
 {
-    public static void main(String [] args) throws IOException{
+    public static void main(String [] args) throws IOException
+    {
 	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	int test = Integer.parseInt(br.readLine());
 	while(test-- > 0) {
