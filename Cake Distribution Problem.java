@@ -26,8 +26,8 @@ class GFG
 
 
 class Solution{
-	int maxSweetness(int [] sweetness, int N, int K) {
-	    int left=1;
+    int maxSweetness(int [] sweetness, int N, int K) {
+	int left=1;
         int right = Arrays.stream(sweetness).sum(); 
         while (left < right) {
             int mid = (left + right + 1) / 2; 
