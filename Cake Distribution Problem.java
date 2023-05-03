@@ -36,7 +36,8 @@ class Solution
             int mid = (left + right + 1) / 2; 
             int pieces = 0; 
             int currentSweetness = 0; 
-            for (int s : sweetness) {
+            for (int s : sweetness) 
+	    {
                 currentSweetness += s;
                 if (currentSweetness >= mid) {
                     pieces++;
