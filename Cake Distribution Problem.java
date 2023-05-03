@@ -8,10 +8,10 @@ class GFG
 	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	int test = Integer.parseInt(br.readLine());
 	while(test-- > 0) {
-			String [] str = br.readLine().trim().split(" ");
-			int n = Integer.parseInt(str[0]);
-			int k = Integer.parseInt(str[1]);
-			int [] sweetness = new int[n];
+	   String [] str = br.readLine().trim().split(" ");
+	   int n = Integer.parseInt(str[0]);
+	   int k = Integer.parseInt(str[1]);
+	   int [] sweetness = new int[n];
 			str = br.readLine().trim().split(" ");
 			int i = 0;
 			for(String s: str) {
