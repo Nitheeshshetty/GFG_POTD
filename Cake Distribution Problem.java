@@ -31,7 +31,8 @@ class Solution
     {
 	int left=1;
         int right = Arrays.stream(sweetness).sum(); 
-        while (left < right) {
+        while (left < right) 
+	{
             int mid = (left + right + 1) / 2; 
             int pieces = 0; 
             int currentSweetness = 0; 
