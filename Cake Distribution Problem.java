@@ -12,15 +12,15 @@ class GFG
 	   int n = Integer.parseInt(str[0]);
 	   int k = Integer.parseInt(str[1]);
 	   int [] sweetness = new int[n];
-			str = br.readLine().trim().split(" ");
-			int i = 0;
-			for(String s: str) {
-				sweetness[i++] = Integer.parseInt(s);
-			}
-			Solution obj = new Solution();
-			System.out.println(obj.maxSweetness(sweetness, n, k));
-		}
+	   str = br.readLine().trim().split(" ");
+	   int i = 0;
+	   for(String s: str) {
+		sweetness[i++] = Integer.parseInt(s);
+	   }
+	   Solution obj = new Solution();
+	   System.out.println(obj.maxSweetness(sweetness, n, k));
 	}
+    }
 }
 
 // } Driver Code Ends
