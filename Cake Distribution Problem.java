@@ -23,10 +23,7 @@ class GFG
     }
 }
 
-// } Driver Code Ends
 
-
-//User function Template for Java
 
 class Solution{
 	int maxSweetness(int [] sweetness, int N, int K) {
