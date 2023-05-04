@@ -45,7 +45,8 @@ class GFG
 }
 
 
-class Solution {
+class Solution 
+{
     public static boolean makePalindrome(int n, String[] arr) {
         HashMap<String,Integer> map=new HashMap<>();
         for(String str:arr){
