@@ -60,8 +60,10 @@ class Solution
             else 
                 map.put(str,map.getOrDefault(str,0)+1);
         }
-        if(map.size()==0) return true;
-        else if(map.size()>1) return false;
+        if(map.size()==0) 
+            return true;
+        else if(map.size()>1) 
+            return false;
         String str="";
         for(Map.Entry<String,Integer> entry:map.entrySet()){
             str=entry.getKey();
