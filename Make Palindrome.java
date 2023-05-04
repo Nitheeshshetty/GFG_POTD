@@ -1,7 +1,6 @@
 import java.io.*;
 import java.util.*;
 
-
 class StringArray
 {
     public static String[] input(BufferedReader br, int n) throws IOException
