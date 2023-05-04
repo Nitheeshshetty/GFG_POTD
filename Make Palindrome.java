@@ -52,7 +52,8 @@ class Solution
         for(String str:arr)
         {
             String rev=new StringBuilder(str).reverse().toString();
-            if(map.containsKey(rev)){
+            if(map.containsKey(rev))
+            {
                 map.put(rev,map.get(rev)-1);
                 map.remove(rev,0);
             }
