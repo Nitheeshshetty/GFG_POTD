@@ -35,8 +35,6 @@ class GFG
         {    
             int n;
             n = Integer.parseInt(br.readLine());
-            
-            
             String[] arr = StringArray.input(br, n);
             
             Solution obj = new Solution();
