@@ -35,11 +35,9 @@ class GFG
         {    
             int n;
             n = Integer.parseInt(br.readLine());
-            String[] arr = StringArray.input(br, n);
-            
+            String[] arr = StringArray.input(br, n);            
             Solution obj = new Solution();
-            boolean res = obj.makePalindrome(n, arr);
-            
+            boolean res = obj.makePalindrome(n, arr);            
             String _result_val = (res) ? "YES" : "NO";
             System.out.println(_result_val);
         }
