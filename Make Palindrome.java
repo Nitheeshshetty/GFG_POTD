@@ -57,7 +57,8 @@ class Solution
                 map.put(rev,map.get(rev)-1);
                 map.remove(rev,0);
             }
-            else map.put(str,map.getOrDefault(str,0)+1);
+            else 
+                map.put(str,map.getOrDefault(str,0)+1);
         }
         if(map.size()==0) return true;
         else if(map.size()>1) return false;
