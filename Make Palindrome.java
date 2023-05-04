@@ -49,7 +49,8 @@ class Solution
 {
     public static boolean makePalindrome(int n, String[] arr) {
         HashMap<String,Integer> map=new HashMap<>();
-        for(String str:arr){
+        for(String str:arr)
+        {
             String rev=new StringBuilder(str).reverse().toString();
             if(map.containsKey(rev)){
                 map.put(rev,map.get(rev)-1);
