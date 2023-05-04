@@ -44,8 +44,6 @@ class GFG
     }
 }
 
-// } Driver Code Ends
-
 
 class Solution {
     public static boolean makePalindrome(int n, String[] arr) {
