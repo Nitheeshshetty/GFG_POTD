@@ -65,7 +65,8 @@ class Solution
         else if(map.size()>1) 
             return false;
         String str="";
-        for(Map.Entry<String,Integer> entry:map.entrySet()){
+        for(Map.Entry<String,Integer> entry:map.entrySet())
+        {
             str=entry.getKey();
             if(entry.getValue()>1) return false;
         }
