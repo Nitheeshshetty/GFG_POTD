@@ -68,7 +68,8 @@ class Solution
         for(Map.Entry<String,Integer> entry:map.entrySet())
         {
             str=entry.getKey();
-            if(entry.getValue()>1) return false;
+            if(entry.getValue()>1) 
+                return false;
         }
         int i=0,j=str.length()-1;
         while(i<j){
