@@ -76,9 +76,8 @@ class Solution
     
     public static int maxCoins(Range[] ranges, int i, int rem,int[][] dp)
     {
-        if(i==ranges.length || rem==0){
+        if(i==ranges.length || rem==0)
             return 0;
-        }
         if(dp[i][rem]!=-1){
             return dp[i][rem];
         }
