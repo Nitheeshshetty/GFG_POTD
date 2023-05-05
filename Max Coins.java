@@ -85,12 +85,12 @@ class Solution
         int s=i+1;
         int e=ranges.length-1;
         int ind=ranges.length;
-        while(s<=e){
+        while(s<=e)
+        {
             int mid=(s+e)/2;
-            if(ranges[mid].s>=ranges[i].e){
+            if(ranges[mid].s>=ranges[i].e)
                 ind=mid;
                 e=mid-1;
-            }
             else{
                 s=mid+1;
             }
