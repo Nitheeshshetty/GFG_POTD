@@ -30,7 +30,8 @@ class GFG implements Runnable
                 out.println(ob.maxCoins(n,a));
             }
             out.close();
-        }catch(Exception e){
+        }
+        catch(Exception e){
             ;
         }
     }
