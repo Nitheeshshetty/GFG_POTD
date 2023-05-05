@@ -31,9 +31,7 @@ class GFG implements Runnable
             }
             out.close();
         }
-        catch(Exception e){
-            ;
-        }
+        catch(Exception e);
     }
 }
 // } Driver Code Ends
