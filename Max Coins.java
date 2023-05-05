@@ -67,8 +67,7 @@ class Solution
         Range[] r=new Range[n];
         for(int i=0;i<n;i++)
             r[i]=new Range(ranges[i][0],ranges[i][1],ranges[i][2]);
-        Arrays.sort(r,new RangeComparator());
-        
+        Arrays.sort(r,new RangeComparator());        
         int[][] dp=new int[n][3];
         for(int i=0;i<n;i++){
             Arrays.fill(dp[i],-1);
