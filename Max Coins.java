@@ -78,9 +78,8 @@ class Solution
     {
         if(i==ranges.length || rem==0)
             return 0;
-        if(dp[i][rem]!=-1){
+        if(dp[i][rem]!=-1)
             return dp[i][rem];
-        }
         int notTake=maxCoins(ranges,i+1,rem,dp);
         int take=ranges[i].c;
         int s=i+1;
