@@ -51,8 +51,10 @@ class Solution
         }
     }
     
-    static class RangeComparator implements Comparator<Range>{
-        public int compare(Range o1, Range o2){
+    static class RangeComparator implements Comparator<Range>
+    {
+        public int compare(Range o1, Range o2)
+        {
             if(o1.s!=o2.s){
                 return o1.s-o2.s;
             }
