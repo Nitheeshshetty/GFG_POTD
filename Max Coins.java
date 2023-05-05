@@ -89,8 +89,10 @@ class Solution
         {
             int mid=(s+e)/2;
             if(ranges[mid].s>=ranges[i].e)
+            {
                 ind=mid;
                 e=mid-1;
+            }
             else
                 s=mid+1;
         }
