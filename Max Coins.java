@@ -74,7 +74,8 @@ class Solution
         return maxCoins(r,0,2,dp);
     }
     
-    public static int maxCoins(Range[] ranges, int i, int rem,int[][] dp){
+    public static int maxCoins(Range[] ranges, int i, int rem,int[][] dp)
+    {
         if(i==ranges.length || rem==0){
             return 0;
         }
