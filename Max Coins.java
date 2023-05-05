@@ -43,7 +43,8 @@ class Solution
         int s;
         int e;
         int c;
-        public Range(int s, int e, int c){
+        public Range(int s, int e, int c)
+        {
             this.s=s;
             this.e=e;
             this.c=c;
