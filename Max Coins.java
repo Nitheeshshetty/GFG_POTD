@@ -70,8 +70,7 @@ class Solution
         Arrays.sort(r,new RangeComparator());        
         int[][] dp=new int[n][3];
         for(int i=0;i<n;i++){
-            Arrays.fill(dp[i],-1);
-        }
+            Arrays.fill(dp[i],-1)
         return maxCoins(r,0,2,dp);
     }
     
