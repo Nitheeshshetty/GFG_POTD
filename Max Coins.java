@@ -55,9 +55,8 @@ class Solution
     {
         public int compare(Range o1, Range o2)
         {
-            if(o1.s!=o2.s){
+            if(o1.s!=o2.s)
                 return o1.s-o2.s;
-            }
             else{
                 return o1.e-o2.e;
             }
