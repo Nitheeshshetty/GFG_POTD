@@ -61,6 +61,7 @@ class Solution
                 return o1.e-o2.e;
         }
     }
+    
     public static int maxCoins(int n,int ranges[][])
     {
         Range[] r=new Range[n];
