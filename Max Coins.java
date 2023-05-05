@@ -10,7 +10,8 @@ class GFG implements Runnable
     
     public void run()
     {
-        try{
+        try
+        {
             BufferedReader in=new BufferedReader(new InputStreamReader(System.in));
             PrintWriter out=new PrintWriter(System.out);
             int t=Integer.parseInt(in.readLine());
