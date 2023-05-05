@@ -7,6 +7,7 @@ class GFG implements Runnable
     {
         new Thread(null, new GFG(), "whatever", 1<<26).start();
     }
+    
     public void run()
     {
         try{
