@@ -19,7 +19,8 @@ class GFG implements Runnable
             {
                 int n=Integer.parseInt(in.readLine().trim());
                 int a[][]=new int[n][3];
-                for(int i=0;i<n;i++){
+                for(int i=0;i<n;i++)
+                {
                     String s[]=in.readLine().trim().split(" ");
                     a[i][0]=Integer.parseInt(s[0]);
                     a[i][1]=Integer.parseInt(s[1]);
