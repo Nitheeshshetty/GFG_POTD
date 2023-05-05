@@ -91,9 +91,8 @@ class Solution
             if(ranges[mid].s>=ranges[i].e)
                 ind=mid;
                 e=mid-1;
-            else{
+            else
                 s=mid+1;
-            }
         }
         take+=maxCoins(ranges,ind,rem-1,dp);
         return dp[i][rem]=Math.max(take,notTake);
