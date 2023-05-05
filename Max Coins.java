@@ -57,9 +57,8 @@ class Solution
         {
             if(o1.s!=o2.s)
                 return o1.s-o2.s;
-            else{
+            else
                 return o1.e-o2.e;
-            }
         }
     }
     public static int maxCoins(int n,int ranges[][])
