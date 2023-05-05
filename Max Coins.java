@@ -38,7 +38,8 @@ class GFG implements Runnable
 
 class Solution
 {
-    static class Range{
+    static class Range
+    {
         int s;
         int e;
         int c;
