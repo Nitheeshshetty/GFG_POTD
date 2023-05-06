@@ -3,11 +3,13 @@ import java.util.Queue;
 import java.io.*;
 import java.util.*;
 
-class Node{
+class Node
+{
     int data;
     Node left;
     Node right;
-    Node(int data){
+    Node(int data)
+    {
         this.data = data;
         left=null;
         right=null;
