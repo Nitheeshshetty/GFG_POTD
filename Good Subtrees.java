@@ -51,9 +51,10 @@ class GfG
         return root;
     }
     
-	public static void main (String[] args) throws IOException{
-	        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	        PrintWriter out=new PrintWriter(System.out);
+    public static void main (String[] args) throws IOException
+    {
+	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	PrintWriter out=new PrintWriter(System.out);
 	        
 	        int t=Integer.parseInt(br.readLine());
     
