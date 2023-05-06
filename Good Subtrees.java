@@ -58,16 +58,15 @@ class GfG
 	int t=Integer.parseInt(br.readLine());
 	while(t > 0)
 	{
-	            String s = br.readLine();
-	            int k=Integer.parseInt(br.readLine());
-    	    	Node root = buildTree(s);
-        	    Solution ob=new Solution();
-                int ans=ob.goodSubtrees(root,k);
-                out.println(ans);
-                    t--;
-            
-            }
-            out.close();
+	    String s = br.readLine();
+	    int k=Integer.parseInt(br.readLine());
+    	    Node root = buildTree(s);
+            Solution ob=new Solution();
+            int ans=ob.goodSubtrees(root,k);
+            out.println(ans);
+            t--;
+        }
+        out.close();
     }
 }
 // } Driver Code Ends
