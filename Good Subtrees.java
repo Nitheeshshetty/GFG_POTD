@@ -55,10 +55,9 @@ class GfG
     {
 	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	PrintWriter out=new PrintWriter(System.out);
-	        
-	        int t=Integer.parseInt(br.readLine());
-    
-	        while(t > 0){
+	int t=Integer.parseInt(br.readLine());
+	while(t > 0)
+	{
 	            String s = br.readLine();
 	            int k=Integer.parseInt(br.readLine());
     	    	Node root = buildTree(s);
