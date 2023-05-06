@@ -41,17 +41,13 @@ class GfG
             if(i >= ip.length)
                 break;    
             currVal = ip[i];
-            if(!currVal.equals("N")) {
-                    
-                // Create the right child for the current node
+            if(!currVal.equals("N")) 
+	    {
                 currNode.right = new Node(Integer.parseInt(currVal));
-                    
-                // Push it to the queue
                 queue.add(currNode.right);
             }
             i++;
-        }
-        
+        }       
         return root;
     }
     
