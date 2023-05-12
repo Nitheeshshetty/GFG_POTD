@@ -46,7 +46,8 @@ class Solution
         int diff = 0;
         char curr = s[0];
         char prev = s[0];
-        for(int i = 0; i<=s.length/2;i++){
+        for(int i = 0; i<=s.length/2;i++)
+        {
             if(s[i]!='?') {
                 prev = curr;
                 curr = s[i];
