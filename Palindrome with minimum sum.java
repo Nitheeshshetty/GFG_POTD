@@ -19,20 +19,27 @@ class GFG
     }
 }
 
-class Solution {
-    public static int minimumSum(String S) {
+class Solution 
+{
+    public static int minimumSum(String S) 
+    {
         char [] s = S.toCharArray();
         int l = 0;
         int r = s.length -1;
-        while(l<r){
-            if(s[l] == s[r]) {
+        while(l<r)
+        {
+            if(s[l] == s[r]) 
+            {
                 l++;
                 r--;
                 continue;
             }
-            else if(s[l] == '?' &&  s[r] != '?') s[l] = s[r];
-            else if(s[l] != '?' && s[r] == '?') s[r] = s[l];
-            else return -1;
+            else if(s[l] == '?' &&  s[r] != '?') 
+                s[l] = s[r];
+            else if(s[l] != '?' && s[r] == '?') 
+                s[r] = s[l];
+            else 
+                return -1;
             l++;
             r--;
         }
