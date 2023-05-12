@@ -47,24 +47,18 @@ class GFG
     }
 }
 
-// } Driver Code Ends
 
-class Solution {
-
-    public static int totalCuts(int N, int K, int[] A) {
-
+class Solution 
+{
+    public static int totalCuts(int N, int K, int[] A) 
+    {
         int[] maxL = new int[N];
-
         int[] minR = new int[N];
-
         int max = Integer.MIN_VALUE;
-
         int min = Integer.MAX_VALUE;
-
         int count = 0;
-
-        for (int i = 0; i < N; i++) {
-
+        for (int i = 0; i < N; i++) 
+        {
             max = Math.max(max, A[i]);
 
             maxL[i] = max;
