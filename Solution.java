@@ -67,21 +67,14 @@ class Solution
             min = Math.min(min, A[i]);
             minR[i] = min;
         }
-
-        for (int i = 0; i < N - 1; i++) {
-
+        for (int i = 0; i < N - 1; i++) 
+        {
             if ((maxL[i] + minR[i + 1]) >= K) {
-
                 count++;
-
             }
-
         }
-
         return count;
-
     }
-
 }
 
         
