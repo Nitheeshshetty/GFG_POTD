@@ -3,26 +3,21 @@ import java.util.*;
 
 class GFG 
 {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br =
-            new BufferedReader(new InputStreamReader(System.in));
+    public static void main(String[] args) throws IOException 
+    {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int t;
         t = Integer.parseInt(br.readLine());
-        while (t-- > 0) {
-
+        while (t-- > 0) 
+        {
             String s;
             s = br.readLine();
-
             Solution obj = new Solution();
             int res = obj.minimumSum(s);
-
             System.out.println(res);
         }
     }
 }
-
-// } Driver Code Ends
-
 
 class Solution {
     public static int minimumSum(String S) {
