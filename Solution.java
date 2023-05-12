@@ -40,23 +40,11 @@ class GFG
             int K;
             K = Integer.parseInt(br.readLine());
             int[] A = IntArray.input(br, N);
-
-            
-
             Solution obj = new Solution();
-
             int res = obj.totalCuts(N, K, A);
-
-            
-
             System.out.println(res);
-
-            
-
         }
-
     }
-
 }
 
 // } Driver Code Ends
