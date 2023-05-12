@@ -12,61 +12,33 @@ class IntArray
     }
 
     public static void print(int[] a)
-
     {
-
         for(int e : a)
-
             System.out.print(e + " ");
-
         System.out.println();
-
     }
-
+    
     public static void print(ArrayList<Integer> a)
-
     {
-
         for(int e : a)
-
             System.out.print(e + " ");
-
         System.out.println();
-
     }
-
 }
 
-class GFG {
-
-    public static void main(String[] args) throws IOException {
-
+class GFG 
+{
+    public static void main(String[] args) throws IOException 
+    {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
         int t;
-
         t = Integer.parseInt(br.readLine());
-
-        while(t-- > 0){
-
-            
-
+        while(t-- > 0)
+        {
             int N;
-
             N = Integer.parseInt(br.readLine());
-
-            
-
-            
-
             int K;
-
             K = Integer.parseInt(br.readLine());
-
-            
-
-            
-
             int[] A = IntArray.input(br, N);
 
             
