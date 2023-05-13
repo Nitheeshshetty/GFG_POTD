@@ -27,29 +27,24 @@ class IntArray
     }
 }
 
-class GFG {
-    public static void main(String[] args) throws IOException {
+class GFG 
+{
+    public static void main(String[] args) throws IOException 
+    {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int t;
         t = Integer.parseInt(br.readLine());
-        while(t-- > 0){
-            
+        while(t-- > 0)
+        {    
             int n;
             n = Integer.parseInt(br.readLine());
-            
-            
             int[] arr = IntArray.input(br, n);
-            
             Solution obj = new Solution();
             int res = obj.arrayOperations(n, arr);
-            
             System.out.println(res);
-            
         }
     }
 }
-
-// } Driver Code Ends
 
 
 class Solution {
