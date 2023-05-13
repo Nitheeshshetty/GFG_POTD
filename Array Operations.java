@@ -47,7 +47,8 @@ class GFG
 }
 
 
-class Solution {
+class Solution 
+{
     public static int arrayOperations(int n, int[] arr) 
     {
         int res = 0;
