@@ -47,8 +47,10 @@ class GFG
 }
 
 
-class Solution {
-    public static int bitMagic(int n, int[] arr) {
+class Solution 
+{
+    public static int bitMagic(int n, int[] arr) 
+    {
         int i = 0;
         int j = n-1;
         int count = 0;
