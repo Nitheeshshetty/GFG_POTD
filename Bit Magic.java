@@ -46,8 +46,6 @@ class GFG
     }
 }
 
-// } Driver Code Ends
-
 
 class Solution {
     public static int bitMagic(int n, int[] arr) {
