@@ -41,9 +41,7 @@ class GFG
             int[] arr = IntArray.input(br, n);
             Solution obj = new Solution();
             int res = obj.bitMagic(n, arr);
-            
-            System.out.println(res);
-            
+            System.out.println(res);  
         }
     }
 }
