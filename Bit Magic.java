@@ -57,9 +57,7 @@ class Solution
         while(i<j)
         {
             if(arr[i]!=arr[j])
-            {
                 count++;
-            }
             i++;
             j--;
         }
