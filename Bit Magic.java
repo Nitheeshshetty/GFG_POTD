@@ -63,6 +63,7 @@ class Solution
         }
         if(count%2==0)
             return count/2;
-        return count/2 + 1;    }
+        return count/2 + 1;    
+    }
 }
         
