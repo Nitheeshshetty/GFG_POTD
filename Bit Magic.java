@@ -34,8 +34,8 @@ class GFG
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int t;
         t = Integer.parseInt(br.readLine());
-        while(t-- > 0){
-            
+        while(t-- > 0)
+        {    
             int n;
             n = Integer.parseInt(br.readLine());
             
