@@ -39,12 +39,9 @@ class GFG
             int N;
             N = Integer.parseInt(br.readLine());
             int[] A = IntArray.input(br, N);
-            
             Solution obj = new Solution();
             long res = obj.findMaxSubsetSum(N, A);
-            
-            System.out.println(res);
-            
+            System.out.println(res);  
         }
     }
 }
