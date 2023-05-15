@@ -47,9 +47,10 @@ class GFG
 }
 
 
-class Solution {
-
-    public static long findMaxSubsetSum(int N, int[] A) {
+class Solution 
+{
+    public static long findMaxSubsetSum(int N, int[] A) 
+    {
         int take=A[0];
         int ntake=0;
         for(int i=1;i<N;i++)
