@@ -57,7 +57,6 @@ class Solution
         {
             int newtake=Math.max(ntake+A[i],take+A[i]);
             int newntake=take;
-            
             take=newtake;
             ntake=newntake;
         }
