@@ -8,11 +8,10 @@ class GFG
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int t;
         t = Integer.parseInt(br.readLine());
-        while(t-- > 0){
-            
+        while(t-- > 0)
+        {    
             long N;
-            N = Long.parseLong(br.readLine().trim());
-            
+            N = Long.parseLong(br.readLine().trim());   
             Solution obj = new Solution();
             long res = obj.countBits(N);
             
