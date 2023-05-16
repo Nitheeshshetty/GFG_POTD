@@ -14,9 +14,7 @@ class GFG
             N = Long.parseLong(br.readLine().trim());   
             Solution obj = new Solution();
             long res = obj.countBits(N);
-            
             System.out.println(res);
-            
         }
     }
 }
