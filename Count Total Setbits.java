@@ -19,8 +19,6 @@ class GFG
     }
 }
 
-// } Driver Code Ends
-
 
 class Solution {
     public static long countBits(long N) {
