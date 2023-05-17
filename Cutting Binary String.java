@@ -17,7 +17,6 @@ class GFG
 } 
 
 
-
 class Solution{
     static int cuts(String str)
     {
