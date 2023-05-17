@@ -17,7 +17,8 @@ class GFG
 } 
 
 
-class Solution{
+class Solution
+{
     static int cuts(String str)
     {
         for (int i = 22; i >= 0; i--)
