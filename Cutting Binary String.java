@@ -17,7 +17,6 @@ class GFG
 } 
 
 
-//User function Template for Java
 
 class Solution{
     static int cuts(String str)
