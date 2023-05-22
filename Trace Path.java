@@ -46,10 +46,11 @@ class Solution
                if(d!=0)
                   d--;
             }
-            else if(s.charAt(i)=='U'){
+            else if(s.charAt(i)=='U')
+            {
                d++;
                if(c!=0)
-               c--;
+                  c--;
             }
             if(a>=m || b>=m || c>=n || d>=n)
                 return 0;
