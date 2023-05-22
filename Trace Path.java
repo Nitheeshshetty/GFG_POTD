@@ -34,10 +34,11 @@ class Solution
                if(b!=0)
                   b--;
             }
-            else if(s.charAt(i)=='R'){
+            else if(s.charAt(i)=='R')
+            {
                b++;
                if(a!=0)
-               a--;
+                  a--;
             }
             else if(s.charAt(i)=='D'){
                c++;
