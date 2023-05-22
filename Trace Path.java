@@ -40,10 +40,11 @@ class Solution
                if(a!=0)
                   a--;
             }
-            else if(s.charAt(i)=='D'){
+            else if(s.charAt(i)=='D')
+            {
                c++;
                if(d!=0)
-               d--;
+                  d--;
             }
             else if(s.charAt(i)=='U'){
                d++;
