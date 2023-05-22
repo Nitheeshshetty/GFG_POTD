@@ -32,7 +32,7 @@ class Solution
             {
                a++;
                if(b!=0)
-               b--;
+                  b--;
             }
             else if(s.charAt(i)=='R'){
                b++;
