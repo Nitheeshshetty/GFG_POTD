@@ -7,12 +7,12 @@ class GFG
     {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(in.readLine());
-        while(t-- > 0){
+        while(t-- > 0)
+        {
             String s1[] = in.readLine().trim().split("\\s+");
             int n = Integer.parseInt(s1[0]);
             int m = Integer.parseInt(s1[1]);
             String s = in.readLine();
-            
             Solution ob = new Solution();
             System.out.println(ob.isPossible(n, m, s));
         }
