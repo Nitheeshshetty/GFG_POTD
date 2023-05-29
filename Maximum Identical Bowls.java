@@ -57,9 +57,7 @@ class Solution
         while(1>0)
         {
             if(sum % N == 0)
-            {
                 return N;
-            }
             N--;
         }
     }
