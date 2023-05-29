@@ -34,19 +34,14 @@ class GFG
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int t;
         t = Integer.parseInt(br.readLine());
-        while(t-- > 0){
-            
+        while(t-- > 0)
+        {
             int N;
             N = Integer.parseInt(br.readLine());
-            
-            
             int[] arr = IntArray.input(br, N);
-            
             Solution obj = new Solution();
             int res = obj.getMaximum(N, arr);
-            
             System.out.println(res);
-            
         }
     }
 }
