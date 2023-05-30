@@ -7,14 +7,15 @@ class GFG
     {
         BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(read.readLine());
-        while (t-- > 0) {
+        while (t-- > 0) 
+        {
             int N = Integer.parseInt(read.readLine());
             String[] Dictionary=read.readLine().split(" ");
             String Pattern=read.readLine();
             Solution ob = new Solution();
             ArrayList <String> ans=ob.CamelCase(N,Dictionary,Pattern);
             for(String u:ans)
-             System.out.print(u+" ");
+                System.out.print(u+" ");
             System.out.println(); 
         }
     }
