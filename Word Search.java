@@ -14,11 +14,11 @@ class GFG
             int n = Integer.parseInt(S[0]);
             int m = Integer.parseInt(S[1]);
             char [][] board = new char[n][m];
-            for(int i = 0; i < n; i++){
+            for(int i = 0; i < n; i++)
+            {
                 String[] s = br.readLine().trim().split(" ");
-                for(int j = 0; j < m; j++){
+                for(int j = 0; j < m; j++)
                     board[i][j] = s[j].charAt(0);
-                }
             }
             String word = br.readLine().trim();
             Solution obj = new Solution();
