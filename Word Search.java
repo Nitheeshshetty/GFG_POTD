@@ -56,9 +56,7 @@ class Solution
         for(int i = 0; i < board.length ; i++)
         {
             for(int j = 0 ; j < board[0].length ; j++)
-            {
                 if(board[i][j] == word.charAt(0) && dfs(board,word,i, j,n, m, 0)) return true;
-            }
         }
         return false;
     }
