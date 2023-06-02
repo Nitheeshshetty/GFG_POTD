@@ -31,8 +31,10 @@ class Solution
         {
             map.put(arr[i],map.getOrDefault(arr[i],0)+1);
         }
-        for(Integer num : map.keySet()){
-            if(map.get(num)<=min){
+        for(Integer num : map.keySet())
+        {
+            if(map.get(num)<=min)
+            {
                 min=map.get(num);
                 max=Math.max(max,num);
             }
