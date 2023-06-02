@@ -20,9 +20,11 @@ class GFG
 }
 
 // Helper class to find largest number with minimum frequency
-class Solution {
-    public static int LargButMinFreq(int arr[], int n) {
-         HashMap<Integer,Integer> map=new HashMap<>();
+class Solution 
+{
+    public static int LargButMinFreq(int arr[], int n) 
+    {
+        HashMap<Integer,Integer> map=new HashMap<>();
         int max=Integer.MIN_VALUE;
         int min=Integer.MAX_VALUE;
         for(int i=0;i<n;i++){
