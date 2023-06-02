@@ -7,8 +7,6 @@ class GFG
     {
         BufferedReader in=new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(in.readLine());
-
-        // Iterating over testcases
         while (t-- > 0) {
             int n = Integer.parseInt(in.readLine());
             int arr[] = new int[n];
