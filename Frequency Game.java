@@ -1,15 +1,10 @@
-//{ Driver Code Starts
-// Initial Template for Java
-
 import java.util.*;
 import java.io.*;
 
-// Position this line where user code will be pasted.
-
-// Driver class with main function
-class GFG {
-    // Main function
-    public static void main(String[] args)throws IOException {
+class GFG 
+{
+    public static void main(String[] args)throws IOException 
+    {
         BufferedReader in=new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(in.readLine());
 
