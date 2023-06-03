@@ -99,15 +99,13 @@ class Complete
     public static void precompute () 
     {
         boolean [] IsPrime = new boolean[MAX_SIZE];
-		
-		for(int i = 0; i < MAX_SIZE; i++)
-			IsPrime[i] = true;
-		
-		for (int p = 2; p * p < MAX_SIZE; p++)
-		{
-			if (IsPrime[p] == true)
-			{
-				for (int i = p * p; i < MAX_SIZE; i += p)
+	for(int i = 0; i < MAX_SIZE; i++)
+	IsPrime[i] = true;
+	for (int p = 2; p * p < MAX_SIZE; p++)
+	{
+	    if (IsPrime[p] == true)
+	    {
+		for (int i = p * p; i < MAX_SIZE; i += p)
 					IsPrime[i] = false;
 			}
 		}
