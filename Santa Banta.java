@@ -9,8 +9,9 @@ class Array
 	int testcases = Integer.parseInt(br.readLine());
 	Complete obj = new Complete();
 	obj.precompute();    	
-		while(testcases-- > 0){
-		    String line = br.readLine();
+	while(testcases-- > 0)
+	{
+	    String line = br.readLine();
 		    String[] element = line.trim().split("\\s+");
 		    int N = Integer.parseInt(element[0]);
 		    int M = Integer.parseInt(element[1]);
