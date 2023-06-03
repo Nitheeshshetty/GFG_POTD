@@ -121,11 +121,11 @@ class Complete
         if(m==0)
             return -1;
         DisjointSet dis=new DisjointSet(n);
-        for(int i=0;i<m;i++){
+        for(int i=0;i<m;i++)
             dis.UnionBySize(g[i][0],g[i][1]);
-        }
         int max=0;
-        for(int i=0;i<=n;i++){
+        for(int i=0;i<=n;i++)
+	{
             if(dis.findUPar(i)==i){
                 max=Math.max(max,dis.size.get(i));
             }
