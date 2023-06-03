@@ -35,8 +35,10 @@ class DisjointSet
     List<Integer> size=new ArrayList<>();
     List<Integer> parent=new ArrayList<>();
     List<Integer> rank=new ArrayList<>();
-    public DisjointSet(int n){
-        for(int i=0;i<=n;i++){
+    public DisjointSet(int n)
+    {
+        for(int i=0;i<=n;i++)
+	{
             size.add(1);
             parent.add(i);
             rank.add(0);
