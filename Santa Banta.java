@@ -106,13 +106,12 @@ class Complete
 	    if (IsPrime[p] == true)
 	    {
 		for (int i = p * p; i < MAX_SIZE; i += p)
-					IsPrime[i] = false;
-			}
-		}
-		for (int p = 2; p < MAX_SIZE; p++)
-		if (IsPrime[p] == true)
-				primes.add(p);
-        
+		    IsPrime[i] = false;
+	    }
+	}
+	for (int p = 2; p < MAX_SIZE; p++)
+	    if (IsPrime[p] == true)
+		primes.add(p);  
     }
 
     public static int helpSanta (int n, int m, int g[][]) {
