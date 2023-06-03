@@ -84,7 +84,8 @@ class DisjointSet
             parent.set(ulp_u,ulp_v);
             size.set(ulp_v,size.get(ulp_u)+size.get(ulp_v));
         }
-        else{
+        else
+	{
             parent.set(ulp_v,ulp_u);
             size.set(ulp_u,size.get(ulp_u)+size.get(ulp_v));
         }
