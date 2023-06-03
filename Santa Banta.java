@@ -24,10 +24,9 @@ class Array
 		arr[i][1] = Integer.parseInt(elements[1]);    
 	    }
             int ans = obj.helpSanta(N, M, arr);
-            System.out.println(ans);
-    	    
-		}
+            System.out.println(ans); 
 	}
+    }
 }
 
 
