@@ -12,9 +12,9 @@ class Array
 	while(testcases-- > 0)
 	{
 	    String line = br.readLine();
-		    String[] element = line.trim().split("\\s+");
-		    int N = Integer.parseInt(element[0]);
-		    int M = Integer.parseInt(element[1]);
+	    String[] element = line.trim().split("\\s+");
+	    int N = Integer.parseInt(element[0]);
+	    int M = Integer.parseInt(element[1]);
 		    int arr [][] = new int[M][2];
 		    for(int i = 0;i<M;i++){
 	            line = br.readLine();
