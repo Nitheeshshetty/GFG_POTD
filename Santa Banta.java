@@ -15,10 +15,11 @@ class Array
 	    String[] element = line.trim().split("\\s+");
 	    int N = Integer.parseInt(element[0]);
 	    int M = Integer.parseInt(element[1]);
-		    int arr [][] = new int[M][2];
-		    for(int i = 0;i<M;i++){
-	            line = br.readLine();
-		        String[] elements = line.trim().split("\\s+");
+	    int arr [][] = new int[M][2];
+	    for(int i = 0;i<M;i++)
+	    {
+	        line = br.readLine();
+		String[] elements = line.trim().split("\\s+");
 		        arr[i][0] = Integer.parseInt(elements[0]);
 		        arr[i][1] = Integer.parseInt(elements[1]);    
 	        }
