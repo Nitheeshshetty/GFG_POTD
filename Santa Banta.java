@@ -3,11 +3,8 @@ import java.util.*;
 
 class Array 
 {
-    
-    // Driver code
-    
-	public static void main (String[] args) throws IOException{
-		// Taking input using buffered reader
+    public static void main (String[] args) throws IOException
+    {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		int testcases = Integer.parseInt(br.readLine());
