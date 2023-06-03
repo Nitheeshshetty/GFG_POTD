@@ -30,15 +30,8 @@ class Array
 }
 
 
-
-
-// } Driver Code Ends
-
-
-//User function Template for Java
-
-
-class DisjointSet{
+class DisjointSet
+{
     List<Integer> size=new ArrayList<>();
     List<Integer> parent=new ArrayList<>();
     List<Integer> rank=new ArrayList<>();
