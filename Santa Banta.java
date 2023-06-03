@@ -63,15 +63,16 @@ class DisjointSet
         if(rank.get(ulp_u)>rank.get(ulp_v)){
             parent.set(ulp_v,ulp_u);
         }
-        else if(rank.get(ulp_v)>rank.get(ulp_u)){
+        else if(rank.get(ulp_v)>rank.get(ulp_u))
             parent.set(ulp_u,ulp_v);
-        }
-        else{
+        else
+	{
             parent.set(ulp_v,ulp_u);
             int rankU=rank.get(ulp_u);
             rank.set(ulp_u,rankU+1);
         }
     }
+	
     public void UnionBySize(int u,int v){
         int ulp_u=findUPar(u);
         int ulp_v=findUPar(v);
