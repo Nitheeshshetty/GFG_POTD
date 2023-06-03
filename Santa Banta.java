@@ -54,12 +54,12 @@ class DisjointSet
         return parent.get(node);
     }
     
-    public void UnionByRank(int u,int v){
+    public void UnionByRank(int u,int v)
+    {
         int ulp_v=findUPar(v);
         int ulp_u=findUPar(u);
-        if(ulp_v==ulp_u){
+        if(ulp_v==ulp_u)
             return;
-        }
         if(rank.get(ulp_u)>rank.get(ulp_v)){
             parent.set(ulp_v,ulp_u);
         }
