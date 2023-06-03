@@ -5,12 +5,10 @@ class Array
 {
     public static void main (String[] args) throws IOException
     {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
-		int testcases = Integer.parseInt(br.readLine());
-	    Complete obj = new Complete();
-		obj.precompute();    	
-		// looping through all testcases
+	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));	
+	int testcases = Integer.parseInt(br.readLine());
+	Complete obj = new Complete();
+	obj.precompute();    	
 		while(testcases-- > 0){
 		    String line = br.readLine();
 		    String[] element = line.trim().split("\\s+");
