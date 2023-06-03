@@ -126,9 +126,8 @@ class Complete
         int max=0;
         for(int i=0;i<=n;i++)
 	{
-            if(dis.findUPar(i)==i){
+            if(dis.findUPar(i)==i)
                 max=Math.max(max,dis.size.get(i));
-            }
         }
         return primes.get(max-1);
     }
