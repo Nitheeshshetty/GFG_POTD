@@ -73,13 +73,14 @@ class DisjointSet
         }
     }
 	
-    public void UnionBySize(int u,int v){
+    public void UnionBySize(int u,int v)
+    {
         int ulp_u=findUPar(u);
         int ulp_v=findUPar(v);
-        if(ulp_v==ulp_u){
+        if(ulp_v==ulp_u)
             return;
-        }
-        if(size.get(ulp_v)>size.get(ulp_u)){
+        if(size.get(ulp_v)>size.get(ulp_u))
+	{
             parent.set(ulp_u,ulp_v);
             size.set(ulp_v,size.get(ulp_u)+size.get(ulp_v));
         }
