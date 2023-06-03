@@ -91,12 +91,13 @@ class DisjointSet
         }
     }
 } 
-class Complete{
+class Complete
+{
     static int MAX_SIZE = 1299722;
-	// To store all prime numbers
-	static ArrayList<Integer> primes = new ArrayList<Integer>();
-    public static void precompute () {
-
+    static ArrayList<Integer> primes = new ArrayList<Integer>();
+	
+    public static void precompute () 
+    {
         boolean [] IsPrime = new boolean[MAX_SIZE];
 		
 		for(int i = 0; i < MAX_SIZE; i++)
