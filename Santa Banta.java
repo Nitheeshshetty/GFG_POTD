@@ -20,9 +20,9 @@ class Array
 	    {
 	        line = br.readLine();
 		String[] elements = line.trim().split("\\s+");
-		        arr[i][0] = Integer.parseInt(elements[0]);
-		        arr[i][1] = Integer.parseInt(elements[1]);    
-	        }
+		arr[i][0] = Integer.parseInt(elements[0]);
+		arr[i][1] = Integer.parseInt(elements[1]);    
+	    }
             int ans = obj.helpSanta(N, M, arr);
             System.out.println(ans);
     	    
