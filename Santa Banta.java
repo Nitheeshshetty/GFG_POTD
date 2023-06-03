@@ -91,6 +91,8 @@ class DisjointSet
         }
     }
 } 
+
+
 class Complete
 {
     static int MAX_SIZE = 1299722;
@@ -114,10 +116,10 @@ class Complete
 		primes.add(p);  
     }
 
-    public static int helpSanta (int n, int m, int g[][]) {
-        if(m==0){
+    public static int helpSanta (int n, int m, int g[][]) 
+    {
+        if(m==0)
             return -1;
-        }
         DisjointSet dis=new DisjointSet(n);
         for(int i=0;i<m;i++){
             dis.UnionBySize(g[i][0],g[i][1]);
