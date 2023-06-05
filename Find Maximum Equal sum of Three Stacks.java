@@ -48,8 +48,10 @@ class GFG
 }
 
 
-class Solution {
-    public static int maxEqualSum(int N1,int N2,int N3, int[] S1, int[] S2, int[] S3) {
+class Solution 
+{
+    public static int maxEqualSum(int N1,int N2,int N3, int[] S1, int[] S2, int[] S3) 
+    {
         int sum1=0,sum2=0,sum3=0;
         for(int i : S1) 
             sum1+= i;
