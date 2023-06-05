@@ -59,7 +59,6 @@ class Solution
             sum2+= i;
         for(int i : S3) 
             sum3+= i;
-
         int min = Math.min(sum1, Math.min(sum2,sum3));
         int i=0,j=0,k=0;
 
