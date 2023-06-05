@@ -32,22 +32,14 @@ class GFG {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int t;
         t = Integer.parseInt(br.readLine());
-        while(t-- > 0){
-            
+        while(t-- > 0)
+        {
             int[] a = IntArray.input(br, 3);
-            
-            
             int[] S1 = IntArray.input(br, a[0]);
-            
-            
             int[] S2 = IntArray.input(br, a[1]);
-            
-            
             int[] S3 = IntArray.input(br, a[2]);
-            
             Solution obj = new Solution();
             int res = obj.maxEqualSum(a[0],a[1],a[2], S1, S2, S3);
-            
             System.out.println(res);
             
         }
