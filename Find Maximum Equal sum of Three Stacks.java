@@ -61,7 +61,6 @@ class Solution
             sum3+= i;
         int min = Math.min(sum1, Math.min(sum2,sum3));
         int i=0,j=0,k=0;
-
         while(i<=N1 && j<=N2 && k<=N3)
         {
             if(sum1>min) 
