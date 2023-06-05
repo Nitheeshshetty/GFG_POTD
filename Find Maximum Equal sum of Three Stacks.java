@@ -41,7 +41,6 @@ class GFG {
             Solution obj = new Solution();
             int res = obj.maxEqualSum(a[0],a[1],a[2], S1, S2, S3);
             System.out.println(res);
-            
         }
     }
 }
