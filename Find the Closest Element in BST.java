@@ -45,19 +45,17 @@ class GFG
               }
               i++;
         }
-    
         return root;
     }
     
-    public static void main(String args[]) throws IOException {
-    
+    public static void main(String args[]) throws IOException 
+    {
        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(br.readLine().trim());
         while(t>0)
         {
             String s = br.readLine();
             Node root = buildTree(s);
-            
             int k = Integer.parseInt(br.readLine().trim());
             
             Solution T = new Solution();
@@ -66,7 +64,6 @@ class GFG
         }
     }
 }
-// } Driver Code Ends
 
 
 //User function Template for Java
