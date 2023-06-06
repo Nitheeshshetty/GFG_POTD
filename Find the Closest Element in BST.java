@@ -18,7 +18,6 @@ class GFG
 {
     static Node buildTree(String str)
     {
-        // Corner Case
         if(str.length() == 0 || str.equals('N'))
             return null;
         String[] s = str.split(" ");
