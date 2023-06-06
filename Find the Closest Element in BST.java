@@ -21,12 +21,9 @@ class GFG
         if(str.length() == 0 || str.equals('N'))
             return null;
         String[] s = str.split(" ");
-        
         Node root = new Node(Integer.parseInt(s[0]));
         Queue <Node> q = new LinkedList<Node>();
         q.add(root);
-        
-        // Starting from the second element
         int i = 1;
         while(!q.isEmpty() && i < s.length)
         {
