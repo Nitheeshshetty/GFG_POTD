@@ -66,22 +66,6 @@ class GFG
 }
 
 
-//User function Template for Java
-
-/*
-class Node  
-{ 
-    int data; 
-    Node left, right; 
-   
-    public Node(int d)  
-    { 
-        data = d; 
-        left = right = null; 
-    } 
-}
-*/
-
 class Solution
 {
     static int minDiff(Node  root, int K) 
