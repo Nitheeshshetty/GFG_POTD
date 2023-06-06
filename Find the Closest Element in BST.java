@@ -29,19 +29,11 @@ class GFG
         {
               Node currNode = q.remove();
               String currVal = s[i];
-        
-              // If the left child is not null
               if(!currVal.equals("N")) 
               {
-        
-                  // Create the left child for the current node
                   currNode.left = new Node(Integer.parseInt(currVal));
-        
-                  // Push it to the queue
                   q.add(currNode.left);
               }
-        
-              // For the right child
               i++;
               if(i >= s.length)
                   break;
