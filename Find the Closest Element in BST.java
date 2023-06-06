@@ -38,18 +38,11 @@ class GFG
               if(i >= s.length)
                   break;
               currVal = s[i];
-        
-              // If the right child is not null
               if(!currVal.equals("N")) 
               {
-        
-                  // Create the right child for the current node
                   currNode.right = new Node(Integer.parseInt(currVal));
-        
-                  // Push it to the queue
                   q.add(currNode.right);
               }
-              
               i++;
         }
     
