@@ -27,10 +27,7 @@ class GFG
         int i = 1;
         while(!q.isEmpty() && i < s.length)
         {
-              // Get and remove the front of the queue
               Node currNode = q.remove();
-        
-              // Get the current node's value from the string
               String currVal = s[i];
         
               // If the left child is not null
