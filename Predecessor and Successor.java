@@ -21,17 +21,12 @@ class GfG
         if(str.length()==0 || str.charAt(0)=='N')
             return null;
         String ip[] = str.split(" ");
-        // Create the root of the tree
         Node root = new Node(Integer.parseInt(ip[0]));
-        // Push the root to the queue
-        
-        Queue<Node> queue = new LinkedList<>(); 
-        
+        Queue<Node> queue = new LinkedList<>();         
         queue.add(root);
-        // Starting from the second element
-        
         int i = 1;
-        while(queue.size()>0 && i < ip.length) {
+        while(queue.size()>0 && i < ip.length) 
+	{
             
             // Get and remove the front of the queue
             Node currNode = queue.peek();
