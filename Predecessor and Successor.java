@@ -30,15 +30,11 @@ class GfG
             Node currNode = queue.peek();
             queue.remove();
             String currVal = ip[i];
-            if(!currVal.equals("N")) {
-                    
-                // Create the left child for the current node
+            if(!currVal.equals("N")) 
+	    {
                 currNode.left = new Node(Integer.parseInt(currVal));
-                // Push it to the queue
                 queue.add(currNode.left);
             }
-                
-            // For the right child
             i++;
             if(i >= ip.length)
                 break;
