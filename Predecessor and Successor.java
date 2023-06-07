@@ -44,10 +44,10 @@ class GfG
                 queue.add(currNode.right);
             }
             i++;
-        }
-        
+ 
         return root;
     }
+	    
     static void printInorder(Node root)
     {
         if(root == null)
