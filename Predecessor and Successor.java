@@ -51,11 +51,9 @@ class GfG
     static void printInorder(Node root)
     {
         if(root == null)
-            return;
-            
+            return; 
         printInorder(root.left);
         System.out.print(root.data+" ");
-        
         printInorder(root.right);
     }
     
