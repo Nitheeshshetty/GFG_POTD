@@ -58,8 +58,7 @@ class GfG
     }
     
     static Node pre,suc;
-    
-	public static void main (String[] args) throws IOException{
+    public static void main (String[] args) throws IOException{
 	        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	        
 	        int t=Integer.parseInt(br.readLine());
