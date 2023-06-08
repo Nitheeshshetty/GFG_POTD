@@ -58,14 +58,14 @@ class GfG
     }
     
     static Node pre,suc;
-    public static void main (String[] args) throws IOException{
-	        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	        
-	        int t=Integer.parseInt(br.readLine());
-    
-	        while(t-- > 0){
-	            String s = br.readLine();
-    	    	Node root = buildTree(s);
+    public static void main (String[] args) throws IOException
+    {
+	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	int t=Integer.parseInt(br.readLine());    
+	while(t-- > 0)
+	{
+	    String s = br.readLine();
+    	    Node root = buildTree(s);
 	            int k=Integer.parseInt(br.readLine());
         	    pre=null;
         	    suc=null;
