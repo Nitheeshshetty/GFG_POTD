@@ -70,13 +70,11 @@ class GfG
             pre=null;
             suc=null;
             findPreSuc(root,k);
-            if(pre!=null){
-                    System.out.print(pre.data+" ");
-            }
-  	    else{
-                    System.out.print("-1 ");
-                }
-                if(suc!=null){
+            if(pre!=null)
+                System.out.print(pre.data+" ");
+  	    else
+                System.out.print("-1 ");
+            if(suc!=null){
                     System.out.println(suc.data);
                 }else{
                     System.out.println("-1 ");
