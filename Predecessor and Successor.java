@@ -93,9 +93,7 @@ class GfG
             if(cur.data < key && (pre == null || pre.data < cur.data))
                 pre = cur;
             if(cur.data > key && (suc == null || suc.data > cur.data))
-            {
                 suc = cur;
-            }
             if(cur.left != null)
                 pq.add(cur.left);
             if(cur.right != null)
