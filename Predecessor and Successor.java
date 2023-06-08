@@ -82,9 +82,6 @@ class GfG
                 }
         }
     }
-  
-// } Driver Code Ends
-
 
 
 //Function to check whether a Binary Tree is BST or not.
