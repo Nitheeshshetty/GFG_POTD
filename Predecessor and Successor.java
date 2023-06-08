@@ -74,11 +74,10 @@ class GfG
                 System.out.print(pre.data+" ");
   	    else
                 System.out.print("-1 ");
-            if(suc!=null){
+            if(suc!=null)
                     System.out.println(suc.data);
-                }else{
+            else
                     System.out.println("-1 ");
-                }
         }
     }
 
