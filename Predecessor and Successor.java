@@ -66,13 +66,14 @@ class GfG
 	{
 	    String s = br.readLine();
     	    Node root = buildTree(s);
-	            int k=Integer.parseInt(br.readLine());
-        	    pre=null;
-        	    suc=null;
-                findPreSuc(root,k);
-                if(pre!=null){
+	    int k=Integer.parseInt(br.readLine());
+            pre=null;
+            suc=null;
+            findPreSuc(root,k);
+            if(pre!=null){
                     System.out.print(pre.data+" ");
-                }else{
+            }
+  	    else{
                     System.out.print("-1 ");
                 }
                 if(suc!=null){
