@@ -87,12 +87,11 @@ class GfG
     {
         Queue<Node> pq = new LinkedList<>();
         pq.add(root);
-        while(!pq.isEmpty()){
+        while(!pq.isEmpty())
+	{
             Node cur = pq.poll();
             if(cur.data < key && (pre == null || pre.data < cur.data))
-            {
                 pre = cur;
-            }   
             if(cur.data > key && (suc == null || suc.data > cur.data))
             {
                 suc = cur;
