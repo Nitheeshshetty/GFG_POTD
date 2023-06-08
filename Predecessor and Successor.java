@@ -75,9 +75,9 @@ class GfG
   	    else
                 System.out.print("-1 ");
             if(suc!=null)
-                    System.out.println(suc.data);
+                System.out.println(suc.data);
             else
-                    System.out.println("-1 ");
+                System.out.println("-1 ");
         }
     }
 
