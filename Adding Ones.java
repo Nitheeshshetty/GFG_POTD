@@ -25,10 +25,9 @@ class GFG
             StringBuilder output = new StringBuilder();
             for(int i = 0; i < n; i++)
             output.append(a[i] + " ");
-            System.out.println(output);
-            
+            System.out.println(output);    
         }
-	}
+    }
 }
 
 
