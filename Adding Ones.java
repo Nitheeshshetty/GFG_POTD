@@ -8,7 +8,7 @@ class GFG
     {
 	BufferedReader br =
         new BufferedReader(new InputStreamReader(System.in));
-        int t = Integer.parseInt(br.readLine().trim()); // Inputting the testcases
+        int t = Integer.parseInt(br.readLine().trim()); 
         while(t-->0)
         {
             StringTokenizer stt = new StringTokenizer(br.readLine());
