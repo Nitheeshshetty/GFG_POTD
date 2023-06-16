@@ -17,10 +17,8 @@ class GFG
             int a[] = new int[n];
             int updates[] = new int[k];
             String inputLine[] = br.readLine().trim().split(" ");
-            for (int i = 0; i < k; i++) {
+            for (int i = 0; i < k; i++) 
                 updates[i] = Integer.parseInt(inputLine[i]);
-            }
-            
             Solution obj = new Solution();
             obj.update(a, n, updates, k);
             
