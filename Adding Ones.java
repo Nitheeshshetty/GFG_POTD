@@ -12,7 +12,6 @@ class GFG
         while(t-->0)
         {
             StringTokenizer stt = new StringTokenizer(br.readLine());
-            
             int n = Integer.parseInt(stt.nextToken());
             int k = Integer.parseInt(stt.nextToken());
             int a[] = new int[n];
