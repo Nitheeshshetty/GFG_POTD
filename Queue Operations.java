@@ -48,11 +48,9 @@ class GFG
 		int f = obj.findFrequency(q, k);
 		if(f != 0)
 		   System.out.println(f);
-		        else{
-		            System.out.println("-1");
-		        }
-		    }
-		}
+		else
+		    System.out.println("-1");
+	     }
 	}
+    }
 }
-// } Driver Code Ends
