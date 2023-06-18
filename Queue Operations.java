@@ -1,16 +1,9 @@
-//{ Driver Code Starts
-//Initial Template for Java
-
 import java.io.*;
 import java.util.*;
 
 
-// } Driver Code Ends
-//User function Template for Java
-
-// Helper class Geeks to implement 
-// insert() and findFrequency()
-class Geeks{
+class Geeks
+{
     static void insert(Queue<Integer> q, int k){
         q.add(k);
     }
