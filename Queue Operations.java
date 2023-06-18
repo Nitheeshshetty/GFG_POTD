@@ -4,13 +4,17 @@ import java.util.*;
 
 class Geeks
 {
-    static void insert(Queue<Integer> q, int k){
+    static void insert(Queue<Integer> q, int k)
+    {
         q.add(k);
     }
-    static int findFrequency(Queue<Integer> q, int k){
+	
+    static int findFrequency(Queue<Integer> q, int k)
+    {
         int freq = 0;
         int t = q.size();
-        while(t-->0){
+        while(t-->0)
+	{
             if(q.peek() == k){
                 freq++;
             }
@@ -20,9 +24,7 @@ class Geeks
     }
 }
 
-//{ Driver Code Starts.
 
-// Driver class with driver code
 class GFG {
     
     // Driver code
