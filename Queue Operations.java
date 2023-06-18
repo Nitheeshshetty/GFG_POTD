@@ -1,7 +1,6 @@
 import java.io.*;
 import java.util.*;
 
-
 class Geeks
 {
     static void insert(Queue<Integer> q, int k)
@@ -25,12 +24,10 @@ class Geeks
 }
 
 
-class GFG {
-    
-    // Driver code
-	public static void main (String[] args) {
-		
-		// Taking input using scanner class
+class GFG 
+{
+    public static void main (String[] args) 
+    {
 		Scanner sc = new Scanner(System.in);
 		int testcase = sc.nextInt();
 		
