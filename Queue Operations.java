@@ -28,21 +28,18 @@ class GFG
 {
     public static void main (String[] args) 
     {
-		Scanner sc = new Scanner(System.in);
-		int testcase = sc.nextInt();
-		
-		while(testcase-- > 0){
-		    // Declaring Queue
-		    Queue<Integer> q = new LinkedList<>();
-		    int n = sc.nextInt();
-		    
-		    // Invoking object of Geeks class
-		    Geeks obj = new Geeks();
-		    
-		    for(int i = 0;i<n;i++){
-		        int k = sc.nextInt();
-		        obj.insert(q, k);
-		    }
+	Scanner sc = new Scanner(System.in);
+	int testcase = sc.nextInt();	
+	while(testcase-- > 0)
+	{
+	    Queue<Integer> q = new LinkedList<>();
+	    int n = sc.nextInt();
+	    Geeks obj = new Geeks();
+	    for(int i = 0;i<n;i++)
+	    {
+		int k = sc.nextInt();
+		obj.insert(q, k);
+	    }
 		   
 		    int x = sc.nextInt();
 		    for(int i = 0;i<x;i++){
