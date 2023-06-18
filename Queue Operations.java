@@ -41,13 +41,13 @@ class GFG
 		obj.insert(q, k);
 	    }
 		   
-		    int x = sc.nextInt();
-		    for(int i = 0;i<x;i++){
-		        int k = sc.nextInt();
-		        int f = obj.findFrequency(q, k);
-		        if(f != 0){
-		            System.out.println(f);
-		        }
+	    int x = sc.nextInt();
+	    for(int i = 0;i<x;i++)
+	    {
+		int k = sc.nextInt();
+		int f = obj.findFrequency(q, k);
+		if(f != 0)
+		   System.out.println(f);
 		        else{
 		            System.out.println("-1");
 		        }
