@@ -12,18 +12,12 @@ class GFG
             int n = sc.nextInt();
             String[] arr = new String[n];
             for(int i=0;i<n;i++)
-            {
                 arr[i] = sc.next();
-            }
-            
             int k = Integer.parseInt(sc.next());
-            
             String str = sc.next();
-            
             Solution obj = new Solution();
             int ans = obj.klengthpref(arr,n,k,str);
             System.out.println(ans);
-            
             t--;
         }
     }
