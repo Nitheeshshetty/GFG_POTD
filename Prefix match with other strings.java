@@ -37,9 +37,7 @@ class Solution
             if(arr[i].length()<k)
                 continue;
             else if(arr[i].subSequence(0,k).equals(ch))
-            {
                 count++;
-            }
         }
         return count;
     }
