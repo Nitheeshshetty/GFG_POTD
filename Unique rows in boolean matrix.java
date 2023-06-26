@@ -20,12 +20,14 @@ class UniqueRows
 		for(int j=0;j<c;j++)
 		    a[i][j]=Integer.parseInt(s[ind++]);
 	    GfG g=new GfG();
-			ArrayList<ArrayList<Integer>> arr = g.uniqueRow(a,r,c);
-			for(int i = 0;i<arr.size();i++){
-			    ArrayList<Integer> demo = arr.get(i);
-			    for(int j = 0;j<demo.size();j++){
-			        out.print(demo.get(j)+" ");
-			    }
+	    ArrayList<ArrayList<Integer>> arr = g.uniqueRow(a,r,c);
+	    for(int i = 0;i<arr.size();i++)
+	    {
+		ArrayList<Integer> demo = arr.get(i);
+		for(int j = 0;j<demo.size();j++)
+		{
+		    out.print(demo.get(j)+" ");
+		}
 			    out.print("$");
 			}
 			out.println();
