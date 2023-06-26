@@ -48,9 +48,7 @@ class GfG
         {
             ArrayList<Integer> store =new ArrayList<>();
             for(int j=0 ; j <col ;j++)
-            {
                store.add(a[i][j]);
-            }
             if(!ans.contains(store)){
                 ans.add(store);
             }
