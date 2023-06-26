@@ -29,11 +29,11 @@ class UniqueRows
 		    out.print(demo.get(j)+" ");
 		}
 			    out.print("$");
-			}
-			out.println();
-		}
-		out.close();
- }
+	    }
+	    out.println();
+	}
+	out.close();
+    }
 }
 // } Driver Code Ends
 
