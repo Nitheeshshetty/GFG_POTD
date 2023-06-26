@@ -35,10 +35,8 @@ class UniqueRows
 	out.close();
     }
 }
-// } Driver Code Ends
 
 
-/*Complete the given function*/
 class GfG
 {
     public static ArrayList<ArrayList<Integer>> uniqueRow(int a[][],int r, int c)
