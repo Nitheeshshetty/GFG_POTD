@@ -11,21 +11,17 @@ class GFG
         while(t-->0)
         {
             StringTokenizer stt = new StringTokenizer(br.readLine());
-            
             int n = Integer.parseInt(stt.nextToken());
             long k = Long.parseLong(stt.nextToken());
-            
             long a[] = new long[n];
             String inputLine[] = br.readLine().trim().split(" ");
             for (int i = 0; i < n; i++) {
                 a[i] = Long.parseLong(inputLine[i]);
             }
-            
             Solution obj = new Solution();
             System.out.println(obj.countSubArrayProductLessThanK(a, n, k));
-            
         }
-	}
+    }
 }
 
 
