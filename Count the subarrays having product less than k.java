@@ -15,9 +15,8 @@ class GFG
             long k = Long.parseLong(stt.nextToken());
             long a[] = new long[n];
             String inputLine[] = br.readLine().trim().split(" ");
-            for (int i = 0; i < n; i++) {
+            for (int i = 0; i < n; i++) 
                 a[i] = Long.parseLong(inputLine[i]);
-            }
             Solution obj = new Solution();
             System.out.println(obj.countSubArrayProductLessThanK(a, n, k));
         }
@@ -34,7 +33,8 @@ class Solution
         while(i<n) 
 	{
             pro*=a[i];
-            while(j<=i && pro>=k) {
+            while(j<=i && pro>=k) 
+	    {
                 pro/=a[j];
                 j++;
             }
