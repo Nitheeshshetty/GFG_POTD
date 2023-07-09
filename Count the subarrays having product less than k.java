@@ -25,22 +25,15 @@ class GFG
 }
 
 
-// } Driver Code Ends
-
-
-//User function Template for Java
-
-
-class Solution {
-    
+class Solution 
+{
     public int countSubArrayProductLessThanK(long a[], int n, long k)
     {
         int i=0,j=0,ans=0;
         long pro=1;
-
-        while(i<n) {
+        while(i<n) 
+	{
             pro*=a[i];
-
             while(j<=i && pro>=k) {
                 pro/=a[j];
                 j++;
