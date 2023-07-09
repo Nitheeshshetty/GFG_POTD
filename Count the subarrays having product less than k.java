@@ -4,9 +4,9 @@ import java.io.*;
 
 class GFG 
 {
-	public static void main(String[] args) throws IOException
-	{
-	    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    public static void main(String[] args) throws IOException
+    {
+	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(br.readLine().trim()); // Inputting the testcases
         while(t-->0)
         {
