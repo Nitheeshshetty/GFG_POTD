@@ -1,13 +1,8 @@
-//{ Driver Code Starts
 import java.util.*;
 import java.io.*;
 
-
-// } Driver Code Ends
-
 class Solution
 {
-    //Function to find the smallest positive number missing from the array.
     static int missingNumber(int arr[], int size)
     {
         Arrays.sort(arr);
