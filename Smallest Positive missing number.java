@@ -16,22 +16,15 @@ class Solution
     }
 }
 
-
-//{ Driver Code Starts.
-
 class Main
 {   
     public static void main (String[] args) throws IOException
     {
 
-		BufferedReader in=new BufferedReader(new InputStreamReader(System.in));
-		PrintWriter out=new PrintWriter(System.out);
-		
-        //taking testcases
-		int t=Integer.parseInt(in.readLine().trim());
-		while(t-->0){
-		    
-		    //input number n
+	BufferedReader in=new BufferedReader(new InputStreamReader(System.in));
+	PrintWriter out=new PrintWriter(System.out);
+	int t=Integer.parseInt(in.readLine().trim());
+	while(t-->0){
 			int n=Integer.parseInt(in.readLine().trim());
 			int[] arr=new int[n];
 			String s[]=in.readLine().trim().split(" ");
