@@ -58,11 +58,10 @@ class Solution
         }
         HashMap<Integer, Boolean> uniqueFrequencyMap = new HashMap<>();
         for (int frequency : frequencyMap.values()) {
-            if (uniqueFrequencyMap.containsKey(frequency)) {
+            if (uniqueFrequencyMap.containsKey(frequency)) 
                 return false; 
-            } else {
+            else
                 uniqueFrequencyMap.put(frequency, true);
-            }
         }
         return true; 
     }
