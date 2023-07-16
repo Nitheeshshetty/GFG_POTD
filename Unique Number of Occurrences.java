@@ -48,13 +48,14 @@ class GFG
 }
 
 
-class Solution {
-    public static boolean isFrequencyUnique(int n, int[] arr) {
+class Solution 
+{
+    public static boolean isFrequencyUnique(int n, int[] arr) 
+    {
         HashMap<Integer, Integer> frequencyMap = new HashMap<>();
         for (int num : arr) {
             frequencyMap.put(num, frequencyMap.getOrDefault(num, 0) + 1);
         }
-
         HashMap<Integer, Boolean> uniqueFrequencyMap = new HashMap<>();
         for (int frequency : frequencyMap.values()) {
             if (uniqueFrequencyMap.containsKey(frequency)) {
@@ -63,7 +64,6 @@ class Solution {
                 uniqueFrequencyMap.put(frequency, true);
             }
         }
-
         return true; 
     }
 }
